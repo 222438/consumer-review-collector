@@ -1,0 +1,4 @@
+interface:
+  display_name: Consumer Review Collector
+  short_description: Collect and analyze public consumer reviews
+  default_prompt: Collect reviews from an authorized public page or local HTML, then produce a canonical CSV and reproducible analysis.

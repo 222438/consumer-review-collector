@@ -6,7 +6,7 @@
 
 - 公司：Lovable（瑞典 / 海外 AI 软件构建平台）
 - 产品：通过自然语言描述生成可运行的网站和应用，并支持继续对话式修改
-- 融资依据：Lovable 在 2025 年公开宣布完成 2 亿美元融资，估值 18 亿美元。提交时请同时保留官方公告链接作为外部证据：<https://lovable.dev/blog/2025/07/01/lovable-raises-200m>
+- 融资依据：Lovable 于 2026 年 8 月 12 日在官方公告中宣布完成 4 亿美元 C 轮融资，估值 133 亿美元。外部证据：<https://lovable.dev/blog/series-c>
 - 产品参考：<https://lovable.dev/>
 
 ## 逆向拆解

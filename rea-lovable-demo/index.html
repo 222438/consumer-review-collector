@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forgeflow · AI 产品构建工作台</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">forge<span>flow</span></a>
+    <div class="crumb">Workspace / <b>Launchpad</b></div>
+    <div class="top-actions"><button class="icon-btn" aria-label="通知">◌</button><button class="avatar">Y</button></div>
+  </header>
+  <main class="shell">
+    <aside class="sidebar">
+      <div class="workspace"><div class="workspace-mark">F</div><div><strong>Founder Lab</strong><small>Personal workspace</small></div><span>⌄</span></div>
+      <nav><a class="active" href="#"><span>✦</span>Projects</a><a href="#"><span>◫</span>Templates</a><a href="#"><span>⌁</span>Integrations</a></nav>
+      <div class="side-bottom"><a href="#"><span>?</span>Help center</a><a href="#"><span>⚙</span>Settings</a></div>
+    </aside>
+    <section class="content">
+      <div class="page-heading"><div><p class="eyebrow">AI PRODUCT BUILDER</p><h1>What will you build today?</h1><p class="sub">Turn an idea into a working web product, one clear prompt at a time.</p></div><button class="new-btn" id="newProject">＋ New project</button></div>
+      <div class="prompt-card"><div class="prompt-icon">✦</div><textarea id="prompt" rows="2" placeholder="Describe the product you want to build..."></textarea><div class="prompt-footer"><div class="chips"><button class="chip">Landing page</button><button class="chip">Dashboard</button><button class="chip">Mobile app</button></div><button id="buildBtn" class="build-btn">Build <span>↗</span></button></div></div>
+      <div id="buildStatus" class="status" hidden></div>
+      <div class="section-head"><h2>Recent projects</h2><button class="filter">Last edited ⌄</button></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="preview preview-purple"><div class="mini-nav"></div><div class="mini-title"></div><div class="mini-lines"></div><div class="mini-button"></div></div><div class="project-info"><div><h3>Launchpad</h3><p>Edited 12 minutes ago</p></div><button class="more">•••</button></div></article>
+        <article class="project-card"><div class="preview preview-blue"><div class="mini-chart"></div><div class="mini-panel"></div><div class="mini-panel small"></div></div><div class="project-info"><div><h3>Pulse analytics</h3><p>Edited yesterday</p></div><button class="more">•••</button></div></article>
+        <article class="project-card"><div class="preview preview-peach"><div class="mini-photo"></div><div class="mini-copy"></div><div class="mini-copy short"></div></div><div class="project-info"><div><h3>Northstar studio</h3><p>Edited 3 days ago</p></div><button class="more">•••</button></div></article>
+      </div>
+      <div class="tip"><span>✦</span><div><b>Start with the outcome</b><p>The more specific your prompt, the closer your first version will be. You can refine every detail after it is generated.</p></div></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

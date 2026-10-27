@@ -4,6 +4,9 @@ This is a reproducible classroom simulation. All records are fictional and must 
 
 ## Contents
 
+- Chinese guide / &#20013;&#25991;&#35828;&#26126;: `docs/README.zh-CN.md`.
+- Chinese field dictionary / &#20013;&#25991;&#23383;&#27573;&#23383;&#20856;: `docs/data_dictionary.zh-CN.md`.
+
 - `data/raw/raw_data.csv`: 408 deliberately imperfect source rows; never overwrite.
 - `data/processed/clean_data.csv`: 385 cleaned rows.
 - `scripts/generate_data.py`: seeded generator, seed `20261027`.

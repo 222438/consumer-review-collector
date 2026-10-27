@@ -1,0 +1,409 @@
+﻿record_id,action,details
+BT-0001,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0002,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0003,drop required field,missing_or_invalid_price
+BT-0004,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0005,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0006,drop required field,missing_or_invalid_price
+BT-0007,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮; rating invalid/out of range -> blank; publish_date normalized to YYYY-MM-DD
+BT-0008,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮
+BT-0009,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0010,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪
+BT-0011,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0012,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮
+BT-0013,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0014,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0015,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0016,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0017,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0018,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0019,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集; favorites invalid/out of range -> blank; publish_date normalized to YYYY-MM-DD
+BT-0020,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0021,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪; battery_hours invalid/out of range -> blank; publish_date normalized to YYYY-MM-DD
+BT-0022,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集
+BT-0023,keep and clean,brand alias normalized to NovaPulse(新脉); noise_cancel_score invalid/out of range -> blank; publish_date normalized to YYYY-MM-DD
+BT-0024,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0025,drop required field,missing_or_invalid_price
+BT-0026,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0027,drop required field,missing_product_name
+BT-0028,drop required field,missing_or_invalid_price
+BT-0029,drop required field,missing_or_invalid_date
+BT-0030,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0031,keep and clean,review_count invalid/out of range -> blank; publish_date normalized to YYYY-MM-DD
+BT-0032,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0033,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0034,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0035,drop required field,missing_or_invalid_date
+BT-0036,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0037,keep and clean,brand alias normalized to NovaPulse(新脉); rating invalid/out of range -> blank; publish_date normalized to YYYY-MM-DD
+BT-0038,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0039,keep and clean,brand alias normalized to NovaPulse(新脉); usage_experience_score invalid/out of range -> blank
+BT-0040,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0041,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮
+BT-0042,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0043,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮; review_count invalid/out of range -> blank; publish_date normalized to YYYY-MM-DD
+BT-0044,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪
+BT-0045,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0046,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0047,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0048,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0049,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0050,keep and clean,brand alias normalized to NovaPulse(新脉)
+BT-0051,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0052,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0053,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0054,keep and clean,no conversion
+BT-0055,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0056,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮
+BT-0057,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0058,keep and clean,platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0059,keep and clean,platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0060,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0061,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集
+BT-0062,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0063,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0064,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0065,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0066,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0067,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0068,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0069,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集
+BT-0070,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮
+BT-0071,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0072,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0073,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0074,keep and clean,platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0075,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0076,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0077,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0078,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0079,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0080,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0081,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪
+BT-0082,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0083,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0084,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮
+BT-0085,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0086,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0087,keep and clean,brand alias normalized to NovaPulse(新脉)
+BT-0088,keep and clean,brand alias normalized to NovaPulse(新脉)
+BT-0089,keep and clean,platform alias normalized to 听潮
+BT-0090,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0091,keep and clean,brand alias normalized to NovaPulse(新脉); publish_date normalized to YYYY-MM-DD
+BT-0092,keep and clean,platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0093,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0094,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 轻集
+BT-0095,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0096,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0097,keep and clean,platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0098,keep and clean,no conversion
+BT-0099,keep and clean,brand alias normalized to NovaPulse(新脉); platform alias normalized to 声浪
+BT-0100,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0101,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0102,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0103,keep and clean,platform alias normalized to 声浪
+BT-0104,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0105,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0106,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0107,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0108,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪
+BT-0109,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0110,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0111,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0112,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0113,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0114,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0115,drop required field,missing_or_invalid_date
+BT-0116,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0117,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0118,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0119,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪
+BT-0120,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集
+BT-0121,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0122,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0123,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0124,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0125,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0126,keep and clean,no conversion
+BT-0127,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0128,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0129,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0130,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0131,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0132,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0133,keep and clean,platform alias normalized to 声浪
+BT-0134,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0135,keep and clean,platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0136,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0137,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0138,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0139,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮
+BT-0140,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0141,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0142,keep and clean,brand alias normalized to QuietNest(静巢)
+BT-0143,keep and clean,brand alias normalized to QuietNest(静巢)
+BT-0144,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮
+BT-0145,keep and clean,platform alias normalized to 轻集
+BT-0146,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0147,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0148,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0149,keep and clean,brand alias normalized to QuietNest(静巢)
+BT-0150,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0151,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0152,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0153,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0154,drop required field,missing_product_name
+BT-0155,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0156,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0157,drop required field,missing_product_name
+BT-0158,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0159,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0160,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0161,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0162,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0163,drop required field,missing_or_invalid_price
+BT-0164,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0165,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0166,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0167,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0168,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0169,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0170,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0171,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0172,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0173,keep and clean,platform alias normalized to 听潮
+BT-0174,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮
+BT-0175,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0176,keep and clean,brand alias normalized to QuietNest(静巢)
+BT-0177,keep and clean,platform alias normalized to 声浪
+BT-0178,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0179,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0180,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮
+BT-0181,keep and clean,platform alias normalized to 轻集
+BT-0182,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0183,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0184,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0185,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0186,keep and clean,brand alias normalized to QuietNest(静巢)
+BT-0187,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集
+BT-0188,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0189,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪
+BT-0190,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 轻集
+BT-0191,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0192,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0193,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0194,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0195,keep and clean,platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0196,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0197,keep and clean,brand alias normalized to QuietNest(静巢)
+BT-0198,drop required field,missing_product_name
+BT-0199,keep and clean,brand alias normalized to QuietNest(静巢); publish_date normalized to YYYY-MM-DD
+BT-0200,keep and clean,brand alias normalized to QuietNest(静巢); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0201,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪
+BT-0202,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0203,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0204,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0205,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0206,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0207,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0208,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0209,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0210,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0211,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0212,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0213,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0214,keep and clean,no conversion
+BT-0215,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0216,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0217,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪
+BT-0218,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0219,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0220,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0221,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0222,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0223,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0224,keep and clean,brand alias normalized to AirMorrow(风序)
+BT-0225,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0226,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0227,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮
+BT-0228,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0229,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0230,keep and clean,platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0231,keep and clean,brand alias normalized to AirMorrow(风序)
+BT-0232,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0233,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮
+BT-0234,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0235,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0236,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪
+BT-0237,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0238,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0239,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0240,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0241,drop required field,missing_or_invalid_price
+BT-0242,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0243,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0244,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0245,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0246,keep and clean,no conversion
+BT-0247,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0248,keep and clean,platform alias normalized to 声浪
+BT-0249,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮
+BT-0250,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集
+BT-0251,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪
+BT-0252,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0253,keep and clean,brand alias normalized to AirMorrow(风序)
+BT-0254,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪
+BT-0255,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0256,keep and clean,brand alias normalized to AirMorrow(风序)
+BT-0257,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮
+BT-0258,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集
+BT-0259,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0260,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮
+BT-0261,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0262,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0263,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集
+BT-0264,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0265,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0266,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪
+BT-0267,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0268,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0269,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮
+BT-0270,keep and clean,brand alias normalized to AirMorrow(风序)
+BT-0271,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0272,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0273,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0274,keep and clean,platform alias normalized to 声浪
+BT-0275,keep and clean,platform alias normalized to 声浪
+BT-0276,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0277,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0278,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0279,keep and clean,brand alias normalized to AirMorrow(风序)
+BT-0280,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集
+BT-0281,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0282,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0283,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0284,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0285,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0286,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0287,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0288,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0289,keep and clean,brand alias normalized to AirMorrow(风序); publish_date normalized to YYYY-MM-DD
+BT-0290,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0291,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0292,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0293,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0294,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0295,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0296,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0297,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0298,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0299,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0300,keep and clean,brand alias normalized to AirMorrow(风序); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0301,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0302,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0303,keep and clean,brand alias normalized to BassForge(低频工坊)
+BT-0304,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0305,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0306,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0307,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪
+BT-0308,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0309,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0310,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0311,keep and clean,brand alias normalized to BassForge(低频工坊)
+BT-0312,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0313,keep and clean,brand alias normalized to BassForge(低频工坊)
+BT-0314,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0315,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0316,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮
+BT-0317,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0318,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0319,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0320,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0321,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集
+BT-0322,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0323,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0324,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0325,keep and clean,no conversion
+BT-0326,drop required field,missing_product_name
+BT-0327,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0328,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0329,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0330,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集
+BT-0331,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0332,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0333,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪
+BT-0334,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪
+BT-0335,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0336,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮
+BT-0337,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集
+BT-0338,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0339,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0340,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0341,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0342,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0343,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0344,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0345,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0346,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0347,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0348,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0349,keep and clean,brand alias normalized to BassForge(低频工坊)
+BT-0350,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0351,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0352,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮
+BT-0353,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0354,keep and clean,brand alias normalized to BassForge(低频工坊)
+BT-0355,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0356,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0357,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0358,keep and clean,platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0359,keep and clean,brand alias normalized to BassForge(低频工坊)
+BT-0360,keep and clean,no conversion
+BT-0361,drop required field,missing_or_invalid_price
+BT-0362,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0363,keep and clean,platform alias normalized to 轻集
+BT-0364,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0365,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮
+BT-0366,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集
+BT-0367,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0368,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0369,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮
+BT-0370,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0371,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0372,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0373,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0374,keep and clean,platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0375,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪
+BT-0376,keep and clean,brand alias normalized to BassForge(低频工坊)
+BT-0377,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0378,keep and clean,platform alias normalized to 声浪
+BT-0379,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮
+BT-0380,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0381,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪
+BT-0382,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0383,keep and clean,platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0384,keep and clean,platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0385,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0386,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0387,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0388,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0389,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0390,keep and clean,platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0391,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0392,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 声浪; publish_date normalized to YYYY-MM-DD
+BT-0393,keep and clean,brand alias normalized to BassForge(低频工坊)
+BT-0394,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 听潮; publish_date normalized to YYYY-MM-DD
+BT-0395,keep and clean,no conversion
+BT-0396,keep and clean,publish_date normalized to YYYY-MM-DD
+BT-0397,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0398,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集; publish_date normalized to YYYY-MM-DD
+BT-0399,keep and clean,brand alias normalized to BassForge(低频工坊); platform alias normalized to 轻集
+BT-0400,keep and clean,brand alias normalized to BassForge(低频工坊); publish_date normalized to YYYY-MM-DD
+BT-0003,drop duplicate,keep first record_id
+BT-0007,drop duplicate,keep first record_id
+BT-0013,drop duplicate,keep first record_id
+BT-0015,drop duplicate,keep first record_id
+BT-0041,drop duplicate,keep first record_id
+BT-0130,drop duplicate,keep first record_id
+BT-0260,drop duplicate,keep first record_id
+BT-0390,drop duplicate,keep first record_id

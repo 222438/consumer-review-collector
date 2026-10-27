@@ -1,0 +1,15 @@
+﻿field,row_count,non_empty_count,missing_count,completeness_rate
+record_id,385,385,0,1.0000
+product_name,385,385,0,1.0000
+brand,385,385,0,1.0000
+category,385,385,0,1.0000
+platform,385,385,0,1.0000
+price,385,385,0,1.0000
+rating,385,381,4,0.9896
+review_count,385,371,14,0.9636
+publish_date,385,385,0,1.0000
+likes,385,377,8,0.9792
+favorites,385,374,11,0.9714
+usage_experience_score,385,384,1,0.9974
+noise_cancel_score,385,384,1,0.9974
+battery_hours,385,384,1,0.9974

@@ -1,0 +1,15 @@
+field_name,meaning,type,valid_range_or_values,key_field,cleaning_rule
+record_id,stable synthetic row identifier,string,unique BT-####,yes,drop blank IDs and keep first duplicate
+product_name,fictional earbud model name,string,non-empty,yes,drop blank values
+brand,fictional brand name,string,4 canonical brands,yes,normalize aliases and drop unknown brands
+category,product category,string,Bluetooth ANC earbuds,no,set to fixed category
+platform,fictional source platform,string,Listening Tide/Sound Wave/Light Set,no,normalize platform aliases
+price,listed price,decimal,50-5000 CNY,yes,strip currency symbols and reject out-of-range values
+rating,user rating,decimal,1-5,no,strip suffixes and blank invalid values
+review_count,review volume,integer,0-5000000,no,remove commas/k suffix and blank invalid values
+publish_date,publication date,ISO date,YYYY-MM-DD,no,parse four source formats and reject invalid values
+likes,like count,integer,0-5000000,no,remove commas/k suffix and blank invalid values
+favorites,favorite count,integer,0-5000000,no,remove commas/k suffix and blank invalid values
+usage_experience_score,synthetic experience score,decimal,1-5,no,blank invalid values
+noise_cancel_score,synthetic noise cancellation score,decimal,1-10,no,blank invalid values
+battery_hours,synthetic battery life,decimal,2-80 hours,no,strip unit and blank invalid values

@@ -1,0 +1,5 @@
+﻿sentiment,count,denominator,sample_size,share_pct
+positive,92,200,200,46.0
+mixed,18,200,200,9.0
+neutral,0,200,200,0.0
+negative,90,200,200,45.0

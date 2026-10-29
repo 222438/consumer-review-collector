@@ -1,0 +1,3530 @@
+[
+  {
+    "review_id": "ML-R0001",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0002",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0003",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0004",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0005",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0006",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "排队太久"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度需要改进"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0007",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0008",
+    "negative_topics": [
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量太少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0009",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "口感中规中矩"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0010",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0011",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0012",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道太淡"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0013",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0014",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0015",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0016",
+    "negative_topics": [
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量太少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0017",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0018",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0019",
+    "negative_topics": [
+      "packaging",
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "包装漏了"
+      },
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量也比较少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0020",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0021",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0022",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0023",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0024",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "口感中规中矩"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0025",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0026",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "排队太久"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度需要改进"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0027",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0028",
+    "negative_topics": [
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量太少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0029",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0030",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0031",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0032",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道太淡"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0033",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0034",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0035",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0036",
+    "negative_topics": [
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量太少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0037",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0038",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0039",
+    "negative_topics": [
+      "packaging",
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "包装漏了"
+      },
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量也比较少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0040",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0041",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0042",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0043",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装看起来不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0044",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0045",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0046",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "排队太久"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度需要改进"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0047",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0048",
+    "negative_topics": [
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量太少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0049",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0050",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0051",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0052",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0053",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道太淡"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0054",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0055",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度很差"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0056",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0057",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0058",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0059",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "排队太久"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度需要改进"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0060",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0061",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "口感中规中矩"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0062",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0063",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度很差"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0064",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0065",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0066",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格也有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "太苦了"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0067",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "口感中规中矩"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0068",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0069",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0070",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0071",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0072",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0073",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道太淡"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0074",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0075",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度很差"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0076",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "口感中规中矩"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0077",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0078",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0079",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "排队太久"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度需要改进"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0080",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0081",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0082",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0083",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度很差"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0084",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0085",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0086",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格也有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "太苦了"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0087",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0088",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0089",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0090",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0091",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "口感中规中矩"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0092",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0093",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装看起来不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0094",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0095",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度很差"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0096",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0097",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0098",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0099",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "排队太久"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度需要改进"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0100",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0101",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0102",
+    "negative_topics": [
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量太少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0103",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0104",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0105",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0106",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道太淡"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0107",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0108",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0109",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0110",
+    "negative_topics": [
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量太少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0111",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0112",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0113",
+    "negative_topics": [
+      "packaging",
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "包装漏了"
+      },
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量也比较少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0114",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0115",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0116",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0117",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0118",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0119",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0120",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "排队太久"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度需要改进"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0121",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0122",
+    "negative_topics": [
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量太少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0123",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0124",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0125",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0126",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道太淡"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0127",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0128",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "口感中规中矩"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0129",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0130",
+    "negative_topics": [
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量太少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0131",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0132",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0133",
+    "negative_topics": [
+      "packaging",
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "包装漏了"
+      },
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量也比较少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0134",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "口感中规中矩"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0135",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0136",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0137",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0138",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0139",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0140",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "排队太久"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度需要改进"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0141",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0142",
+    "negative_topics": [
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量太少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0143",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装看起来不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0144",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0145",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0146",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道太淡"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0147",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0148",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0149",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0150",
+    "negative_topics": [
+      "portion"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "portion",
+        "polarity": "negative",
+        "span": "分量太少"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0151",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0152",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0153",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "排队太久"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度需要改进"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0154",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0155",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0156",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0157",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度很差"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0158",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0159",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0160",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格也有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "太苦了"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0161",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0162",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0163",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0164",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0165",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "口感中规中矩"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0166",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0167",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道太淡"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0168",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0169",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度很差"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0170",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0171",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0172",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0173",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "排队太久"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度需要改进"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0174",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0175",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0176",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0177",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度很差"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0178",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道很棒"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0179",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0180",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格也有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "太苦了"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0181",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0182",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0183",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0184",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0185",
+    "negative_topics": [
+      "delivery"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0186",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0187",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道太淡"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0188",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "positive",
+        "span": "配送速度很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0189",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度很差"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0190",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "味道一般"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0191",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0192",
+    "negative_topics": [
+      "packaging"
+    ],
+    "sentiment": "mixed",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "口感不错"
+      },
+      {
+        "topic": "packaging",
+        "polarity": "negative",
+        "span": "希望包装再精致一点"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0193",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装看起来不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0194",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "新鲜好喝"
+      },
+      {
+        "topic": "service",
+        "polarity": "positive",
+        "span": "服务也很快"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0195",
+    "negative_topics": [
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "口感中规中矩"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0196",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0197",
+    "negative_topics": [
+      "delivery",
+      "service"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "delivery",
+        "polarity": "negative",
+        "span": "等待时间较长"
+      },
+      {
+        "topic": "service",
+        "polarity": "negative",
+        "span": "服务态度很差"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0198",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "packaging",
+        "polarity": "positive",
+        "span": "包装结实"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0199",
+    "negative_topics": [],
+    "sentiment": "positive",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "positive",
+        "span": "价格可以接受"
+      },
+      {
+        "topic": "taste",
+        "polarity": "positive",
+        "span": "味道不错"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  },
+  {
+    "review_id": "ML-R0200",
+    "negative_topics": [
+      "price",
+      "taste"
+    ],
+    "sentiment": "negative",
+    "evidence": [
+      {
+        "topic": "price",
+        "polarity": "negative",
+        "span": "价格也有点贵"
+      },
+      {
+        "topic": "taste",
+        "polarity": "negative",
+        "span": "太苦了"
+      }
+    ],
+    "confidence": "high",
+    "coder": "semantic-coding-v0.4"
+  }
+]

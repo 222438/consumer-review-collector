@@ -1,0 +1,87 @@
+{
+  "input_rows": 200,
+  "encoded_rows": 200,
+  "review_id_min": "ML-R0001",
+  "review_id_max": "ML-R0200",
+  "pain_points": [
+    {
+      "rank": 1,
+      "topic": "delivery",
+      "count": 38,
+      "denominator": 200,
+      "sample_size": 200,
+      "share_pct": 19.0
+    },
+    {
+      "rank": 2,
+      "topic": "taste",
+      "count": 37,
+      "denominator": 200,
+      "sample_size": 200,
+      "share_pct": 18.5
+    },
+    {
+      "rank": 3,
+      "topic": "packaging",
+      "count": 22,
+      "denominator": 200,
+      "sample_size": 200,
+      "share_pct": 11.0
+    },
+    {
+      "rank": 4,
+      "topic": "service",
+      "count": 20,
+      "denominator": 200,
+      "sample_size": 200,
+      "share_pct": 10.0
+    },
+    {
+      "rank": 5,
+      "topic": "price",
+      "count": 18,
+      "denominator": 200,
+      "sample_size": 200,
+      "share_pct": 9.0
+    },
+    {
+      "rank": 6,
+      "topic": "portion",
+      "count": 15,
+      "denominator": 200,
+      "sample_size": 200,
+      "share_pct": 7.5
+    }
+  ],
+  "sentiment": [
+    {
+      "sentiment": "positive",
+      "count": 92,
+      "denominator": 200,
+      "sample_size": 200,
+      "share_pct": 46.0
+    },
+    {
+      "sentiment": "mixed",
+      "count": 18,
+      "denominator": 200,
+      "sample_size": 200,
+      "share_pct": 9.0
+    },
+    {
+      "sentiment": "neutral",
+      "count": 0,
+      "denominator": 200,
+      "sample_size": 200,
+      "share_pct": 0.0
+    },
+    {
+      "sentiment": "negative",
+      "count": 90,
+      "denominator": 200,
+      "sample_size": 200,
+      "share_pct": 45.0
+    }
+  ],
+  "note": "Percentages use the full merged sample as denominator; analysis_period is a deterministic batch field."
+}

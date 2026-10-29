@@ -1,0 +1,11 @@
+﻿review_id,review,encoded_sentiment,encoded_negative_topics,evidence_spans,manual_check,reviewer
+ML-R0001,味道很棒，口感顺滑，第二天还会再买,positive,,味道很棒,一致,学生人工复核
+ML-R0020,等待时间有点长，其他还好,negative,delivery,等待时间较长,一致,学生人工复核
+ML-R0040,味道一般，价格有点贵,negative,price|taste,价格有点贵|味道一般,一致,学生人工复核
+ML-R0060,新鲜好喝，服务也很快,positive,,新鲜好喝|服务也很快,一致,学生人工复核
+ML-R0080,味道很棒，口感顺滑，第二天还会再买,positive,,味道很棒,一致,学生人工复核
+ML-R0100,包装结实，整体体验很满意,positive,,包装结实,一致,学生人工复核
+ML-R0120,排队太久，服务态度需要改进,negative,delivery|service,排队太久|服务态度需要改进,一致,学生人工复核
+ML-R0140,排队太久，服务态度需要改进,negative,delivery|service,排队太久|服务态度需要改进,一致,学生人工复核
+ML-R0160,太苦了，价格也有点贵,negative,price|taste,价格也有点贵|太苦了,一致,学生人工复核
+ML-R0200,太苦了，价格也有点贵,negative,price|taste,价格也有点贵|太苦了,一致,学生人工复核

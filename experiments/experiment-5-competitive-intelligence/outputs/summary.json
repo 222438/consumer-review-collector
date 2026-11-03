@@ -1,0 +1,23 @@
+{
+  "version": "v0.5",
+  "input_rows": 385,
+  "focal_brand": "NovaPulse(新脉)",
+  "focal_reason": "requested focal brand is present",
+  "weight_sum": 1.0,
+  "weights": {
+    "consumer_overlap": 0.3,
+    "product_overlap": 0.25,
+    "price_overlap": 0.2,
+    "brand_popularity": 0.25
+  },
+  "top_rival": "BassForge(低频工坊)",
+  "top_threat_index": 93.46,
+  "candidate_gap_cells": 3,
+  "label_vocabulary": [
+    "positive",
+    "mixed",
+    "negative"
+  ],
+  "source_note": "所有指标均来自实验3清洗字段；互动量按 review_count + likes + favorites 汇总。",
+  "simulation_warning": "Fictional classroom data; not market share or commercial evidence."
+}

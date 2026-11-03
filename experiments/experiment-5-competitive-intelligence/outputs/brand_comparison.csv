@@ -1,0 +1,5 @@
+﻿brand,product_rows,product_count,avg_price,median_price,min_price,max_price,avg_rating,review_count,likes,favorites,avg_usage_experience,avg_noise_cancel,avg_battery_hours,engagement,brand_popularity,product_share_pct,sentiment
+BassForge(低频工坊),98,4,640.81,626.5,340.0,998.0,4.13,917385.0,4104219.0,1989826.0,4.19,7.24,27.79,7011430.0,100.0,25.45,mixed
+AirMorrow(风序),99,4,543.61,539.0,255.0,798.0,4.23,807073.5,2899196.0,2139513.5,4.19,7.85,25.34,5845783.0,83.38,25.71,mixed
+QuietNest(静巢),95,4,1186.02,1227.0,701.0,1570.0,4.51,845751.5,3143719.0,1800158.0,4.11,7.67,26.15,5789628.5,82.57,24.68,positive
+NovaPulse(新脉),93,4,402.9,405.0,205.0,599.0,4.29,693789.0,3141286.0,1932669.5,4.14,7.68,24.88,5767744.5,82.26,24.16,mixed

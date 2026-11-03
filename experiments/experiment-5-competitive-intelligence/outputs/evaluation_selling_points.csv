@@ -1,0 +1,5 @@
+﻿brand,evaluation_label,selling_point,selling_point_value,source_field,evidence_note
+BassForge(低频工坊),mixed,续航,27.79,battery_hours,品牌均值；卖点仅表示样本中的相对优势
+AirMorrow(风序),mixed,降噪能力,7.85,noise_cancel_score,品牌均值；卖点仅表示样本中的相对优势
+QuietNest(静巢),positive,用户评价,4.51,rating,品牌均值；卖点仅表示样本中的相对优势
+NovaPulse(新脉),mixed,降噪能力,7.68,noise_cancel_score,品牌均值；卖点仅表示样本中的相对优势

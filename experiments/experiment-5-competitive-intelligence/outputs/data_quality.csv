@@ -1,0 +1,10 @@
+﻿field,missing_before,missing_after,imputation,source_file
+price,0,0,none,C:\codex_homework\experiments\experiment-3-bluetooth-anc\data\processed\clean_data.csv
+rating,4,0,brand median -> market median,C:\codex_homework\experiments\experiment-3-bluetooth-anc\data\processed\clean_data.csv
+review_count,14,0,brand median -> market median,C:\codex_homework\experiments\experiment-3-bluetooth-anc\data\processed\clean_data.csv
+likes,8,0,brand median -> market median,C:\codex_homework\experiments\experiment-3-bluetooth-anc\data\processed\clean_data.csv
+favorites,11,0,brand median -> market median,C:\codex_homework\experiments\experiment-3-bluetooth-anc\data\processed\clean_data.csv
+usage_experience_score,1,0,brand median -> market median,C:\codex_homework\experiments\experiment-3-bluetooth-anc\data\processed\clean_data.csv
+noise_cancel_score,1,0,brand median -> market median,C:\codex_homework\experiments\experiment-3-bluetooth-anc\data\processed\clean_data.csv
+battery_hours,1,0,brand median -> market median,C:\codex_homework\experiments\experiment-3-bluetooth-anc\data\processed\clean_data.csv
+__rows__,0,0,rows without identity/positive price excluded,C:\codex_homework\experiments\experiment-3-bluetooth-anc\data\processed\clean_data.csv

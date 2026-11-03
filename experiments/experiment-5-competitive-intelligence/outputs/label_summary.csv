@@ -1,0 +1,9 @@
+﻿brand,sentiment,count,denominator,share_pct,label_source
+AirMorrow(风序),mixed,54,99,54.55,experiment-4 vocabulary; rating threshold adaptation
+AirMorrow(风序),positive,45,99,45.45,experiment-4 vocabulary; rating threshold adaptation
+BassForge(低频工坊),mixed,64,98,65.31,experiment-4 vocabulary; rating threshold adaptation
+BassForge(低频工坊),positive,34,98,34.69,experiment-4 vocabulary; rating threshold adaptation
+NovaPulse(新脉),mixed,43,93,46.24,experiment-4 vocabulary; rating threshold adaptation
+NovaPulse(新脉),positive,50,93,53.76,experiment-4 vocabulary; rating threshold adaptation
+QuietNest(静巢),mixed,19,95,20.0,experiment-4 vocabulary; rating threshold adaptation
+QuietNest(静巢),positive,76,95,80.0,experiment-4 vocabulary; rating threshold adaptation

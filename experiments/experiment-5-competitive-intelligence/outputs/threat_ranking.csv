@@ -1,0 +1,4 @@
+﻿rank,brand,focal_brand,consumer_overlap,product_overlap,price_overlap,brand_popularity,threat_index,evidence_records,weight_sum
+1,BassForge(低频工坊),NovaPulse(新脉),100.0,89.49,80.42,100.0,93.46,98,1.0
+2,AirMorrow(风序),NovaPulse(新脉),100.0,92.9,90.74,83.38,92.22,99,1.0
+3,QuietNest(静巢),NovaPulse(新脉),100.0,75.74,29.13,82.57,75.4,95,1.0

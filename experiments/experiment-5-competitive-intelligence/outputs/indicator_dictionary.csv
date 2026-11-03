@@ -1,0 +1,5 @@
+﻿indicator,name_zh,unit,weight,weight_pct,direction,source_fields,formula,missing_handling
+consumer_overlap,消费者重合度,%,0.3,30.0,higher_threat,"review_count,likes,favorites","100 * min(1, rival_engagement / focal_engagement)","numeric field median by brand, then market median"
+product_overlap,产品重合度,%,0.25,25.0,higher_threat,"price,usage_experience_score,noise_cancel_score,battery_hours",mean of nearest focal-product similarity across price and performance,brand/market median imputation; similarity uses available dimensions
+price_overlap,价格重合度,%,0.2,20.0,higher_threat,price,mean(exp(-abs(rival_price - nearest_focal_price) / focal_median_price)) * 100,price is required; invalid rows are excluded
+brand_popularity,品牌热度,%,0.25,25.0,higher_threat,"review_count,likes,favorites",100 * brand_engagement / maximum_brand_engagement,missing interaction fields contribute zero after imputation

@@ -1,0 +1,4 @@
+﻿gap_id,price_band,anc_band,battery_band,product_rows,brand_count,gap_flag,gap_note
+E5-GAP-0001,≤299,7–<8,20–<30h,0,0,candidate_gap,样本覆盖≤1条；需用真实需求数据验证
+E5-GAP-0002,≤299,低于7,20–<30h,1,1,candidate_gap,样本覆盖≤1条；需用真实需求数据验证
+E5-GAP-0003,≤299,低于7,≥30h,1,1,candidate_gap,样本覆盖≤1条；需用真实需求数据验证

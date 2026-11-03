@@ -1,0 +1,17 @@
+{
+  "version": "v0.6",
+  "consumer_category": "coffee",
+  "competitor_category": "bluetooth_audio",
+  "category_aligned": false,
+  "focal_brand": "NovaPulse(新脉)",
+  "consumer_review_topics": 6,
+  "competitor_product_rows": 385,
+  "candidate_gap_cells": 3,
+  "strategy_briefs": 5,
+  "scored_rows": 1,
+  "false_opportunities_detected": 0,
+  "score_formula": "score = normalized_user_importance * (100 - competitor_top_selling_point_coverage_pct) / 100 * evidence_confidence * category_fit_factor",
+  "false_opportunity_rule": "category-aligned user importance < 5% and competitor top-selling-point coverage <= 20%",
+  "scope_note": "Experiment 4 contains coffee reviews while experiment 5 contains Bluetooth-audio products. The shared price signal is a low-confidence proxy only. Unobserved earbud demand is unscored; experiment-5 selling points are structured summaries, not full competitor copy.",
+  "synthetic_data_warning": "The source datasets are fictional classroom samples, not market evidence."
+}

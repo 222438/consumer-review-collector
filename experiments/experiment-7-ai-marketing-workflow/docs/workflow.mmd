@@ -1,0 +1,27 @@
+flowchart LR
+    U[用户输入
+给Campus Coffee设计一次新品推广] --> B[品牌资料]
+    B --> I[消费者洞察
+实验4]
+    I --> C[竞争分析
+实验5]
+    C --> G[Content Gap
+实验6]
+    G --> V[Brand Voice
+技能规则]
+    V --> T[目标消费者]
+    T --> M[传播主题]
+    M --> H[渠道计划]
+    H --> P[Campaign策略]
+    G -.人工审核：类别与证据边界.-> V
+    P --> R{人工审核点}
+    R -->|通过| D[小流量测试]
+    R -->|退回| V
+    subgraph API[API调用模块]
+      X[JSON请求] --> Y[超时/重试]
+      Y --> Z[JSON响应校验]
+    end
+    B -.-> X
+    I -.-> X
+    C -.-> X
+    P -.-> X

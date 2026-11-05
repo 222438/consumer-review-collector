@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "campus-coffee-workflow-v0.7",
+  "title": "AI Marketing Workflow Run",
+  "type": "object",
+  "required": [
+    "version",
+    "run_id",
+    "request",
+    "status",
+    "steps",
+    "campaign",
+    "manual_review"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "v0.7"
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "request": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "completed",
+        "failed"
+      ]
+    },
+    "steps": {
+      "type": "object",
+      "minProperties": 9
+    },
+    "campaign": {
+      "type": "object",
+      "required": [
+        "campaign_id",
+        "status",
+        "theme",
+        "channels",
+        "kpis"
+      ]
+    },
+    "manual_review": {
+      "type": "object",
+      "required": [
+        "required",
+        "checkpoints"
+      ]
+    }
+  }
+}

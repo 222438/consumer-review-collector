@@ -1,0 +1,51 @@
+{"event": "step", "step": "brand_info", "status": "started", "timestamp": "2026-11-05T00:45:40.035+00:00"}
+{"event": "api_call", "endpoint": "workflow/brand_info", "attempt": 1, "status": "started", "timestamp": "2026-11-05T00:45:40.035+00:00"}
+{"event": "api_call", "endpoint": "workflow/brand_info", "attempt": 1, "status": "succeeded", "response": {"ok": true, "endpoint": "workflow/brand_info", "request_id": "WF-20261105T004540-08cca5-brand_info"}, "elapsed_ms": 1.93, "timestamp": "2026-11-05T00:45:40.037+00:00"}
+{"event": "step", "step": "brand_info", "status": "completed", "timestamp": "2026-11-05T00:45:40.037+00:00"}
+{"event": "step", "step": "consumer_insight", "status": "started", "timestamp": "2026-11-05T00:45:40.037+00:00"}
+{"event": "api_call", "endpoint": "workflow/consumer_insight", "attempt": 1, "status": "started", "timestamp": "2026-11-05T00:45:40.037+00:00"}
+{"event": "api_call", "endpoint": "workflow/consumer_insight", "attempt": 1, "status": "succeeded", "response": {"ok": true, "endpoint": "workflow/consumer_insight", "request_id": "WF-20261105T004540-08cca5-consumer_insight"}, "elapsed_ms": 0.46, "timestamp": "2026-11-05T00:45:40.038+00:00"}
+{"event": "step", "step": "consumer_insight", "status": "completed", "timestamp": "2026-11-05T00:45:40.070+00:00"}
+{"event": "step", "step": "competitor_analysis", "status": "started", "timestamp": "2026-11-05T00:45:40.070+00:00"}
+{"event": "api_call", "endpoint": "workflow/competitor_analysis", "attempt": 1, "status": "started", "timestamp": "2026-11-05T00:45:40.070+00:00"}
+{"event": "api_call", "endpoint": "workflow/competitor_analysis", "attempt": 1, "status": "succeeded", "response": {"ok": true, "endpoint": "workflow/competitor_analysis", "request_id": "WF-20261105T004540-08cca5-competitor_analysis"}, "elapsed_ms": 0.34, "timestamp": "2026-11-05T00:45:40.071+00:00"}
+{"event": "step", "step": "competitor_analysis", "status": "completed", "timestamp": "2026-11-05T00:45:40.116+00:00"}
+{"event": "step", "step": "content_gap", "status": "started", "timestamp": "2026-11-05T00:45:40.116+00:00"}
+{"event": "api_call", "endpoint": "workflow/content_gap", "attempt": 1, "status": "started", "timestamp": "2026-11-05T00:45:40.116+00:00"}
+{"event": "api_call", "endpoint": "workflow/content_gap", "attempt": 1, "status": "succeeded", "response": {"ok": true, "endpoint": "workflow/content_gap", "request_id": "WF-20261105T004540-08cca5-content_gap"}, "elapsed_ms": 0.2, "timestamp": "2026-11-05T00:45:40.116+00:00"}
+{"event": "step", "step": "content_gap", "status": "completed", "timestamp": "2026-11-05T00:45:40.178+00:00"}
+{"event": "step", "step": "brand_voice", "status": "started", "timestamp": "2026-11-05T00:45:40.178+00:00"}
+{"event": "api_call", "endpoint": "workflow/brand_voice", "attempt": 1, "status": "started", "timestamp": "2026-11-05T00:45:40.178+00:00"}
+{"event": "api_call", "endpoint": "workflow/brand_voice", "attempt": 1, "status": "succeeded", "response": {"ok": true, "endpoint": "workflow/brand_voice", "request_id": "WF-20261105T004540-08cca5-brand_voice"}, "elapsed_ms": 0.2, "timestamp": "2026-11-05T00:45:40.178+00:00"}
+{"event": "step", "step": "brand_voice", "status": "completed", "timestamp": "2026-11-05T00:45:40.188+00:00"}
+{"event": "step", "step": "target_consumer", "status": "started", "timestamp": "2026-11-05T00:45:40.188+00:00"}
+{"event": "api_call", "endpoint": "workflow/target_consumer", "attempt": 1, "status": "started", "timestamp": "2026-11-05T00:45:40.188+00:00"}
+{"event": "api_call", "endpoint": "workflow/target_consumer", "attempt": 1, "status": "succeeded", "response": {"ok": true, "endpoint": "workflow/target_consumer", "request_id": "WF-20261105T004540-08cca5-target_consumer"}, "elapsed_ms": 0.22, "timestamp": "2026-11-05T00:45:40.188+00:00"}
+{"event": "step", "step": "target_consumer", "status": "completed", "timestamp": "2026-11-05T00:45:40.188+00:00"}
+{"event": "step", "step": "communication_theme", "status": "started", "timestamp": "2026-11-05T00:45:40.188+00:00"}
+{"event": "api_call", "endpoint": "workflow/communication_theme", "attempt": 1, "status": "started", "timestamp": "2026-11-05T00:45:40.188+00:00"}
+{"event": "api_call", "endpoint": "workflow/communication_theme", "attempt": 1, "status": "succeeded", "response": {"ok": true, "endpoint": "workflow/communication_theme", "request_id": "WF-20261105T004540-08cca5-communication_theme"}, "elapsed_ms": 0.18, "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "step", "step": "communication_theme", "status": "completed", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "step", "step": "channel_plan", "status": "started", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "api_call", "endpoint": "workflow/channel_plan", "attempt": 1, "status": "started", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "api_call", "endpoint": "workflow/channel_plan", "attempt": 1, "status": "succeeded", "response": {"ok": true, "endpoint": "workflow/channel_plan", "request_id": "WF-20261105T004540-08cca5-channel_plan"}, "elapsed_ms": 0.21, "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "step", "step": "channel_plan", "status": "completed", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "step", "step": "campaign", "status": "started", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "api_call", "endpoint": "workflow/campaign", "attempt": 1, "status": "started", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "api_call", "endpoint": "workflow/campaign", "attempt": 1, "status": "succeeded", "response": {"ok": true, "endpoint": "workflow/campaign", "request_id": "WF-20261105T004540-08cca5-campaign"}, "elapsed_ms": 0.14, "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "step", "step": "campaign", "status": "completed", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "api_call", "endpoint": "debug/flaky", "attempt": 1, "status": "started", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "api_call", "endpoint": "debug/flaky", "attempt": 1, "status": "failed", "error": "RuntimeError: simulated upstream 503", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "api_call", "endpoint": "debug/flaky", "attempt": 2, "status": "started", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "api_call", "endpoint": "debug/flaky", "attempt": 2, "status": "failed", "error": "RuntimeError: simulated upstream 503", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "api_call", "endpoint": "debug/flaky", "attempt": 3, "status": "started", "timestamp": "2026-11-05T00:45:40.189+00:00"}
+{"event": "api_call", "endpoint": "debug/flaky", "attempt": 3, "status": "succeeded", "response": {"ok": true, "recovered": true}, "elapsed_ms": 0.12, "timestamp": "2026-11-05T00:45:40.190+00:00"}
+{"event": "api_call", "endpoint": "debug/slow", "attempt": 1, "status": "started", "timestamp": "2026-11-05T00:45:40.190+00:00"}
+{"event": "api_call", "endpoint": "debug/slow", "attempt": 1, "status": "timeout", "error": "timeout after 0.020s", "timestamp": "2026-11-05T00:45:40.216+00:00"}
+{"event": "api_call", "endpoint": "debug/slow", "attempt": 2, "status": "started", "timestamp": "2026-11-05T00:45:40.216+00:00"}
+{"event": "api_call", "endpoint": "debug/slow", "attempt": 2, "status": "timeout", "error": "timeout after 0.020s", "timestamp": "2026-11-05T00:45:40.247+00:00"}
+{"event": "debug_drill", "case": "API失败与重试", "status": "recovered", "detail": "第3次调用成功: True"}
+{"event": "debug_drill", "case": "JSON格式错误", "status": "handled", "detail": "第1行第11列: Expecting value"}
+{"event": "debug_drill", "case": "缺字段", "status": "handled", "detail": "$: missing required field 'run_id'; $: missing required field 'request'; $: missing required field 'status'; $: missing required field 'steps'; $: missing required field 'campaign'; $: missing required field 'manual_review'"}
+{"event": "debug_drill", "case": "超时", "status": "handled", "detail": "debug/slow failed after 2 attempt(s): timeout after 0.020s"}
+{"event": "workflow", "status": "completed", "run_id": "WF-20261105T004540-08cca5", "timestamp": "2026-11-05T00:45:40.247+00:00"}

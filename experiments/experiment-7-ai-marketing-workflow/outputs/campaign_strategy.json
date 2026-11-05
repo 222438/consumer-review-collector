@@ -1,0 +1,2145 @@
+{
+  "version": "v0.7",
+  "run_id": "WF-20261105T004540-08cca5",
+  "request": "给Campus Coffee设计一次新品推广",
+  "status": "completed",
+  "started_at": "2026-11-05T00:45:40.035+00:00",
+  "steps": {
+    "brand_info": {
+      "status": "completed",
+      "input": "给Campus Coffee设计一次新品推广",
+      "api_response": {
+        "ok": true,
+        "endpoint": "workflow/brand_info",
+        "request_id": "WF-20261105T004540-08cca5-brand_info"
+      },
+      "output": {
+        "brand_name": "Campus Coffee",
+        "category": "coffee",
+        "launch_type": "new_product",
+        "request": "给Campus Coffee设计一次新品推广",
+        "objective": "在校园场景验证新品传播主题、渠道和转化路径",
+        "source_scope": "user_request"
+      },
+      "evidence_refs": [
+        "user_request"
+      ],
+      "elapsed_ms": 2.15
+    },
+    "consumer_insight": {
+      "status": "completed",
+      "input": {
+        "brand_info": {
+          "brand_name": "Campus Coffee",
+          "category": "coffee",
+          "launch_type": "new_product",
+          "request": "给Campus Coffee设计一次新品推广",
+          "objective": "在校园场景验证新品传播主题、渠道和转化路径",
+          "source_scope": "user_request"
+        }
+      },
+      "api_response": {
+        "ok": true,
+        "endpoint": "workflow/consumer_insight",
+        "request_id": "WF-20261105T004540-08cca5-consumer_insight"
+      },
+      "output": {
+        "sample_size": 200,
+        "top_pain_points": [
+          {
+            "topic": "delivery",
+            "count": 38,
+            "share_pct": 19.0
+          },
+          {
+            "topic": "taste",
+            "count": 37,
+            "share_pct": 18.5
+          },
+          {
+            "topic": "packaging",
+            "count": 22,
+            "share_pct": 11.0
+          }
+        ],
+        "sentiment": [
+          {
+            "label": "positive",
+            "count": 92,
+            "share_pct": 46.0
+          },
+          {
+            "label": "mixed",
+            "count": 18,
+            "share_pct": 9.0
+          },
+          {
+            "label": "neutral",
+            "count": 0,
+            "share_pct": 0.0
+          },
+          {
+            "label": "negative",
+            "count": 90,
+            "share_pct": 45.0
+          }
+        ],
+        "evidence_boundary": "实验4为咖啡评论模拟样本；比例描述样本，不代表全体校园消费者。",
+        "source_files": [
+          "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\pain_point_ranking.csv",
+          "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\sentiment_distribution.csv"
+        ]
+      },
+      "evidence_refs": [
+        "E4:pain_point_ranking.csv",
+        "E4:sentiment_distribution.csv"
+      ],
+      "elapsed_ms": 33.28
+    },
+    "competitor_analysis": {
+      "status": "completed",
+      "input": {
+        "brand_info": {
+          "brand_name": "Campus Coffee",
+          "category": "coffee",
+          "launch_type": "new_product",
+          "request": "给Campus Coffee设计一次新品推广",
+          "objective": "在校园场景验证新品传播主题、渠道和转化路径",
+          "source_scope": "user_request"
+        },
+        "consumer_insight": {
+          "sample_size": 200,
+          "top_pain_points": [
+            {
+              "topic": "delivery",
+              "count": 38,
+              "share_pct": 19.0
+            },
+            {
+              "topic": "taste",
+              "count": 37,
+              "share_pct": 18.5
+            },
+            {
+              "topic": "packaging",
+              "count": 22,
+              "share_pct": 11.0
+            }
+          ],
+          "sentiment": [
+            {
+              "label": "positive",
+              "count": 92,
+              "share_pct": 46.0
+            },
+            {
+              "label": "mixed",
+              "count": 18,
+              "share_pct": 9.0
+            },
+            {
+              "label": "neutral",
+              "count": 0,
+              "share_pct": 0.0
+            },
+            {
+              "label": "negative",
+              "count": 90,
+              "share_pct": 45.0
+            }
+          ],
+          "evidence_boundary": "实验4为咖啡评论模拟样本；比例描述样本，不代表全体校园消费者。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\pain_point_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\sentiment_distribution.csv"
+          ]
+        }
+      },
+      "api_response": {
+        "ok": true,
+        "endpoint": "workflow/competitor_analysis",
+        "request_id": "WF-20261105T004540-08cca5-competitor_analysis"
+      },
+      "output": {
+        "focal_brand": "NovaPulse(新脉)",
+        "top_rival": "BassForge(低频工坊)",
+        "threat_index": 93.46,
+        "rival_evidence_records": 98,
+        "rival_snapshot": {
+          "brand": "BassForge(低频工坊)",
+          "product_rows": "98",
+          "product_count": "4",
+          "avg_price": "640.81",
+          "median_price": "626.5",
+          "min_price": "340.0",
+          "max_price": "998.0",
+          "avg_rating": "4.13",
+          "review_count": "917385.0",
+          "likes": "4104219.0",
+          "favorites": "1989826.0",
+          "avg_usage_experience": "4.19",
+          "avg_noise_cancel": "7.24",
+          "avg_battery_hours": "27.79",
+          "engagement": "7011430.0",
+          "brand_popularity": "100.0",
+          "product_share_pct": "25.45",
+          "sentiment": "mixed"
+        },
+        "category_alignment": "not_aligned",
+        "use_rule": "实验5是蓝牙降噪耳机样本，只用于演示竞争分析结构，不能作为咖啡竞品事实。",
+        "source_files": [
+          "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\threat_ranking.csv",
+          "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\brand_comparison.csv"
+        ]
+      },
+      "evidence_refs": [
+        "E5:threat_ranking.csv",
+        "E5:brand_comparison.csv"
+      ],
+      "elapsed_ms": 45.68
+    },
+    "content_gap": {
+      "status": "completed",
+      "input": {
+        "brand_info": {
+          "brand_name": "Campus Coffee",
+          "category": "coffee",
+          "launch_type": "new_product",
+          "request": "给Campus Coffee设计一次新品推广",
+          "objective": "在校园场景验证新品传播主题、渠道和转化路径",
+          "source_scope": "user_request"
+        },
+        "consumer_insight": {
+          "sample_size": 200,
+          "top_pain_points": [
+            {
+              "topic": "delivery",
+              "count": 38,
+              "share_pct": 19.0
+            },
+            {
+              "topic": "taste",
+              "count": 37,
+              "share_pct": 18.5
+            },
+            {
+              "topic": "packaging",
+              "count": 22,
+              "share_pct": 11.0
+            }
+          ],
+          "sentiment": [
+            {
+              "label": "positive",
+              "count": 92,
+              "share_pct": 46.0
+            },
+            {
+              "label": "mixed",
+              "count": 18,
+              "share_pct": 9.0
+            },
+            {
+              "label": "neutral",
+              "count": 0,
+              "share_pct": 0.0
+            },
+            {
+              "label": "negative",
+              "count": 90,
+              "share_pct": 45.0
+            }
+          ],
+          "evidence_boundary": "实验4为咖啡评论模拟样本；比例描述样本，不代表全体校园消费者。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\pain_point_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\sentiment_distribution.csv"
+          ]
+        },
+        "competitor_analysis": {
+          "focal_brand": "NovaPulse(新脉)",
+          "top_rival": "BassForge(低频工坊)",
+          "threat_index": 93.46,
+          "rival_evidence_records": 98,
+          "rival_snapshot": {
+            "brand": "BassForge(低频工坊)",
+            "product_rows": "98",
+            "product_count": "4",
+            "avg_price": "640.81",
+            "median_price": "626.5",
+            "min_price": "340.0",
+            "max_price": "998.0",
+            "avg_rating": "4.13",
+            "review_count": "917385.0",
+            "likes": "4104219.0",
+            "favorites": "1989826.0",
+            "avg_usage_experience": "4.19",
+            "avg_noise_cancel": "7.24",
+            "avg_battery_hours": "27.79",
+            "engagement": "7011430.0",
+            "brand_popularity": "100.0",
+            "product_share_pct": "25.45",
+            "sentiment": "mixed"
+          },
+          "category_alignment": "not_aligned",
+          "use_rule": "实验5是蓝牙降噪耳机样本，只用于演示竞争分析结构，不能作为咖啡竞品事实。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\threat_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\brand_comparison.csv"
+          ]
+        }
+      },
+      "api_response": {
+        "ok": true,
+        "endpoint": "workflow/content_gap",
+        "request_id": "WF-20261105T004540-08cca5-content_gap"
+      },
+      "output": {
+        "opportunities": [
+          {
+            "theme_id": "price_value",
+            "theme": "价格与性价比",
+            "status": "hypothesis_only",
+            "score": 11.84,
+            "category_fit": "cross_category_proxy",
+            "consumer_importance_pct": 9.0
+          },
+          {
+            "theme_id": "delivery_speed",
+            "theme": "配送速度",
+            "status": "unmapped_competitor_coverage",
+            "score": null,
+            "category_fit": "not_comparable",
+            "consumer_importance_pct": 19.0
+          },
+          {
+            "theme_id": "taste_quality",
+            "theme": "口味与品质",
+            "status": "unmapped_competitor_coverage",
+            "score": null,
+            "category_fit": "not_comparable",
+            "consumer_importance_pct": 18.5
+          },
+          {
+            "theme_id": "packaging",
+            "theme": "包装",
+            "status": "unmapped_competitor_coverage",
+            "score": null,
+            "category_fit": "not_comparable",
+            "consumer_importance_pct": 11.0
+          }
+        ],
+        "selected_hypothesis": {
+          "theme_id": "price_value",
+          "theme": "价格与性价比",
+          "status": "hypothesis_only",
+          "score": 11.84,
+          "category_fit": "cross_category_proxy",
+          "consumer_importance_pct": 9.0
+        },
+        "evidence_boundary": "实验6已明确标注咖啡与耳机类别不一致；跨类别价格信号只能形成假设，发布前需要校园咖啡自有数据验证。",
+        "human_gate": "必须先审核类别匹配和证据边界，再进入投放文案。",
+        "source_file": "C:\\codex_homework\\experiments\\experiment-6-content-gap-brand-voice\\outputs\\demand_content_matrix.csv"
+      },
+      "evidence_refs": [
+        "E6:demand_content_matrix.csv"
+      ],
+      "elapsed_ms": 61.54
+    },
+    "brand_voice": {
+      "status": "completed",
+      "input": {
+        "brand_info": {
+          "brand_name": "Campus Coffee",
+          "category": "coffee",
+          "launch_type": "new_product",
+          "request": "给Campus Coffee设计一次新品推广",
+          "objective": "在校园场景验证新品传播主题、渠道和转化路径",
+          "source_scope": "user_request"
+        },
+        "consumer_insight": {
+          "sample_size": 200,
+          "top_pain_points": [
+            {
+              "topic": "delivery",
+              "count": 38,
+              "share_pct": 19.0
+            },
+            {
+              "topic": "taste",
+              "count": 37,
+              "share_pct": 18.5
+            },
+            {
+              "topic": "packaging",
+              "count": 22,
+              "share_pct": 11.0
+            }
+          ],
+          "sentiment": [
+            {
+              "label": "positive",
+              "count": 92,
+              "share_pct": 46.0
+            },
+            {
+              "label": "mixed",
+              "count": 18,
+              "share_pct": 9.0
+            },
+            {
+              "label": "neutral",
+              "count": 0,
+              "share_pct": 0.0
+            },
+            {
+              "label": "negative",
+              "count": 90,
+              "share_pct": 45.0
+            }
+          ],
+          "evidence_boundary": "实验4为咖啡评论模拟样本；比例描述样本，不代表全体校园消费者。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\pain_point_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\sentiment_distribution.csv"
+          ]
+        },
+        "competitor_analysis": {
+          "focal_brand": "NovaPulse(新脉)",
+          "top_rival": "BassForge(低频工坊)",
+          "threat_index": 93.46,
+          "rival_evidence_records": 98,
+          "rival_snapshot": {
+            "brand": "BassForge(低频工坊)",
+            "product_rows": "98",
+            "product_count": "4",
+            "avg_price": "640.81",
+            "median_price": "626.5",
+            "min_price": "340.0",
+            "max_price": "998.0",
+            "avg_rating": "4.13",
+            "review_count": "917385.0",
+            "likes": "4104219.0",
+            "favorites": "1989826.0",
+            "avg_usage_experience": "4.19",
+            "avg_noise_cancel": "7.24",
+            "avg_battery_hours": "27.79",
+            "engagement": "7011430.0",
+            "brand_popularity": "100.0",
+            "product_share_pct": "25.45",
+            "sentiment": "mixed"
+          },
+          "category_alignment": "not_aligned",
+          "use_rule": "实验5是蓝牙降噪耳机样本，只用于演示竞争分析结构，不能作为咖啡竞品事实。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\threat_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\brand_comparison.csv"
+          ]
+        },
+        "content_gap": {
+          "opportunities": [
+            {
+              "theme_id": "price_value",
+              "theme": "价格与性价比",
+              "status": "hypothesis_only",
+              "score": 11.84,
+              "category_fit": "cross_category_proxy",
+              "consumer_importance_pct": 9.0
+            },
+            {
+              "theme_id": "delivery_speed",
+              "theme": "配送速度",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 19.0
+            },
+            {
+              "theme_id": "taste_quality",
+              "theme": "口味与品质",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 18.5
+            },
+            {
+              "theme_id": "packaging",
+              "theme": "包装",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 11.0
+            }
+          ],
+          "selected_hypothesis": {
+            "theme_id": "price_value",
+            "theme": "价格与性价比",
+            "status": "hypothesis_only",
+            "score": 11.84,
+            "category_fit": "cross_category_proxy",
+            "consumer_importance_pct": 9.0
+          },
+          "evidence_boundary": "实验6已明确标注咖啡与耳机类别不一致；跨类别价格信号只能形成假设，发布前需要校园咖啡自有数据验证。",
+          "human_gate": "必须先审核类别匹配和证据边界，再进入投放文案。",
+          "source_file": "C:\\codex_homework\\experiments\\experiment-6-content-gap-brand-voice\\outputs\\demand_content_matrix.csv"
+        }
+      },
+      "api_response": {
+        "ok": true,
+        "endpoint": "workflow/brand_voice",
+        "request_id": "WF-20261105T004540-08cca5-brand_voice"
+      },
+      "output": {
+        "voice": [
+          "清楚",
+          "克制",
+          "具体",
+          "以校园场景为中心"
+        ],
+        "rules": [
+          "先说用户决定，再给测试条件",
+          "保留样本量、分母和证据来源",
+          "把跨类别信号写成待验证假设",
+          "用轻量邀请代替强迫式促销"
+        ],
+        "prohibited_claims": [
+          "全网第一",
+          "行业领先",
+          "顶级",
+          "彻底降噪",
+          "零延迟",
+          "百分百有效"
+        ],
+        "draft_line": "Campus Coffee：上课前，先喝到对味的一杯。",
+        "source_file": "C:\\codex_homework\\skills\\brand_voice\\SKILL.md"
+      },
+      "evidence_refs": [
+        "brand_voice/SKILL.md"
+      ],
+      "elapsed_ms": 10.56
+    },
+    "target_consumer": {
+      "status": "completed",
+      "input": {
+        "brand_info": {
+          "brand_name": "Campus Coffee",
+          "category": "coffee",
+          "launch_type": "new_product",
+          "request": "给Campus Coffee设计一次新品推广",
+          "objective": "在校园场景验证新品传播主题、渠道和转化路径",
+          "source_scope": "user_request"
+        },
+        "consumer_insight": {
+          "sample_size": 200,
+          "top_pain_points": [
+            {
+              "topic": "delivery",
+              "count": 38,
+              "share_pct": 19.0
+            },
+            {
+              "topic": "taste",
+              "count": 37,
+              "share_pct": 18.5
+            },
+            {
+              "topic": "packaging",
+              "count": 22,
+              "share_pct": 11.0
+            }
+          ],
+          "sentiment": [
+            {
+              "label": "positive",
+              "count": 92,
+              "share_pct": 46.0
+            },
+            {
+              "label": "mixed",
+              "count": 18,
+              "share_pct": 9.0
+            },
+            {
+              "label": "neutral",
+              "count": 0,
+              "share_pct": 0.0
+            },
+            {
+              "label": "negative",
+              "count": 90,
+              "share_pct": 45.0
+            }
+          ],
+          "evidence_boundary": "实验4为咖啡评论模拟样本；比例描述样本，不代表全体校园消费者。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\pain_point_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\sentiment_distribution.csv"
+          ]
+        },
+        "competitor_analysis": {
+          "focal_brand": "NovaPulse(新脉)",
+          "top_rival": "BassForge(低频工坊)",
+          "threat_index": 93.46,
+          "rival_evidence_records": 98,
+          "rival_snapshot": {
+            "brand": "BassForge(低频工坊)",
+            "product_rows": "98",
+            "product_count": "4",
+            "avg_price": "640.81",
+            "median_price": "626.5",
+            "min_price": "340.0",
+            "max_price": "998.0",
+            "avg_rating": "4.13",
+            "review_count": "917385.0",
+            "likes": "4104219.0",
+            "favorites": "1989826.0",
+            "avg_usage_experience": "4.19",
+            "avg_noise_cancel": "7.24",
+            "avg_battery_hours": "27.79",
+            "engagement": "7011430.0",
+            "brand_popularity": "100.0",
+            "product_share_pct": "25.45",
+            "sentiment": "mixed"
+          },
+          "category_alignment": "not_aligned",
+          "use_rule": "实验5是蓝牙降噪耳机样本，只用于演示竞争分析结构，不能作为咖啡竞品事实。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\threat_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\brand_comparison.csv"
+          ]
+        },
+        "content_gap": {
+          "opportunities": [
+            {
+              "theme_id": "price_value",
+              "theme": "价格与性价比",
+              "status": "hypothesis_only",
+              "score": 11.84,
+              "category_fit": "cross_category_proxy",
+              "consumer_importance_pct": 9.0
+            },
+            {
+              "theme_id": "delivery_speed",
+              "theme": "配送速度",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 19.0
+            },
+            {
+              "theme_id": "taste_quality",
+              "theme": "口味与品质",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 18.5
+            },
+            {
+              "theme_id": "packaging",
+              "theme": "包装",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 11.0
+            }
+          ],
+          "selected_hypothesis": {
+            "theme_id": "price_value",
+            "theme": "价格与性价比",
+            "status": "hypothesis_only",
+            "score": 11.84,
+            "category_fit": "cross_category_proxy",
+            "consumer_importance_pct": 9.0
+          },
+          "evidence_boundary": "实验6已明确标注咖啡与耳机类别不一致；跨类别价格信号只能形成假设，发布前需要校园咖啡自有数据验证。",
+          "human_gate": "必须先审核类别匹配和证据边界，再进入投放文案。",
+          "source_file": "C:\\codex_homework\\experiments\\experiment-6-content-gap-brand-voice\\outputs\\demand_content_matrix.csv"
+        },
+        "brand_voice": {
+          "voice": [
+            "清楚",
+            "克制",
+            "具体",
+            "以校园场景为中心"
+          ],
+          "rules": [
+            "先说用户决定，再给测试条件",
+            "保留样本量、分母和证据来源",
+            "把跨类别信号写成待验证假设",
+            "用轻量邀请代替强迫式促销"
+          ],
+          "prohibited_claims": [
+            "全网第一",
+            "行业领先",
+            "顶级",
+            "彻底降噪",
+            "零延迟",
+            "百分百有效"
+          ],
+          "draft_line": "Campus Coffee：上课前，先喝到对味的一杯。",
+          "source_file": "C:\\codex_homework\\skills\\brand_voice\\SKILL.md"
+        }
+      },
+      "api_response": {
+        "ok": true,
+        "endpoint": "workflow/target_consumer",
+        "request_id": "WF-20261105T004540-08cca5-target_consumer"
+      },
+      "output": {
+        "primary": "18—28岁的学生与校园教职工，常在上课、通勤或自习前购买咖啡",
+        "decision": "希望在可接受价格内快速获得稳定口味的咖啡",
+        "observed_signals": [
+          {
+            "topic": "delivery",
+            "count": 38,
+            "share_pct": 19.0
+          },
+          {
+            "topic": "taste",
+            "count": 37,
+            "share_pct": 18.5
+          },
+          {
+            "topic": "packaging",
+            "count": 22,
+            "share_pct": 11.0
+          }
+        ],
+        "unvalidated_needs": [
+          "具体新品口味偏好",
+          "校园门店可接受价格",
+          "高峰期真实等待时长"
+        ],
+        "research_next": "先访谈5名目标用户，再用小流量A/B测试验证主题和优惠机制。"
+      },
+      "evidence_refs": [
+        "E4:pain_point_ranking.csv",
+        "human_review:target_definition"
+      ],
+      "elapsed_ms": 0.25
+    },
+    "communication_theme": {
+      "status": "completed",
+      "input": {
+        "brand_info": {
+          "brand_name": "Campus Coffee",
+          "category": "coffee",
+          "launch_type": "new_product",
+          "request": "给Campus Coffee设计一次新品推广",
+          "objective": "在校园场景验证新品传播主题、渠道和转化路径",
+          "source_scope": "user_request"
+        },
+        "consumer_insight": {
+          "sample_size": 200,
+          "top_pain_points": [
+            {
+              "topic": "delivery",
+              "count": 38,
+              "share_pct": 19.0
+            },
+            {
+              "topic": "taste",
+              "count": 37,
+              "share_pct": 18.5
+            },
+            {
+              "topic": "packaging",
+              "count": 22,
+              "share_pct": 11.0
+            }
+          ],
+          "sentiment": [
+            {
+              "label": "positive",
+              "count": 92,
+              "share_pct": 46.0
+            },
+            {
+              "label": "mixed",
+              "count": 18,
+              "share_pct": 9.0
+            },
+            {
+              "label": "neutral",
+              "count": 0,
+              "share_pct": 0.0
+            },
+            {
+              "label": "negative",
+              "count": 90,
+              "share_pct": 45.0
+            }
+          ],
+          "evidence_boundary": "实验4为咖啡评论模拟样本；比例描述样本，不代表全体校园消费者。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\pain_point_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\sentiment_distribution.csv"
+          ]
+        },
+        "competitor_analysis": {
+          "focal_brand": "NovaPulse(新脉)",
+          "top_rival": "BassForge(低频工坊)",
+          "threat_index": 93.46,
+          "rival_evidence_records": 98,
+          "rival_snapshot": {
+            "brand": "BassForge(低频工坊)",
+            "product_rows": "98",
+            "product_count": "4",
+            "avg_price": "640.81",
+            "median_price": "626.5",
+            "min_price": "340.0",
+            "max_price": "998.0",
+            "avg_rating": "4.13",
+            "review_count": "917385.0",
+            "likes": "4104219.0",
+            "favorites": "1989826.0",
+            "avg_usage_experience": "4.19",
+            "avg_noise_cancel": "7.24",
+            "avg_battery_hours": "27.79",
+            "engagement": "7011430.0",
+            "brand_popularity": "100.0",
+            "product_share_pct": "25.45",
+            "sentiment": "mixed"
+          },
+          "category_alignment": "not_aligned",
+          "use_rule": "实验5是蓝牙降噪耳机样本，只用于演示竞争分析结构，不能作为咖啡竞品事实。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\threat_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\brand_comparison.csv"
+          ]
+        },
+        "content_gap": {
+          "opportunities": [
+            {
+              "theme_id": "price_value",
+              "theme": "价格与性价比",
+              "status": "hypothesis_only",
+              "score": 11.84,
+              "category_fit": "cross_category_proxy",
+              "consumer_importance_pct": 9.0
+            },
+            {
+              "theme_id": "delivery_speed",
+              "theme": "配送速度",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 19.0
+            },
+            {
+              "theme_id": "taste_quality",
+              "theme": "口味与品质",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 18.5
+            },
+            {
+              "theme_id": "packaging",
+              "theme": "包装",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 11.0
+            }
+          ],
+          "selected_hypothesis": {
+            "theme_id": "price_value",
+            "theme": "价格与性价比",
+            "status": "hypothesis_only",
+            "score": 11.84,
+            "category_fit": "cross_category_proxy",
+            "consumer_importance_pct": 9.0
+          },
+          "evidence_boundary": "实验6已明确标注咖啡与耳机类别不一致；跨类别价格信号只能形成假设，发布前需要校园咖啡自有数据验证。",
+          "human_gate": "必须先审核类别匹配和证据边界，再进入投放文案。",
+          "source_file": "C:\\codex_homework\\experiments\\experiment-6-content-gap-brand-voice\\outputs\\demand_content_matrix.csv"
+        },
+        "brand_voice": {
+          "voice": [
+            "清楚",
+            "克制",
+            "具体",
+            "以校园场景为中心"
+          ],
+          "rules": [
+            "先说用户决定，再给测试条件",
+            "保留样本量、分母和证据来源",
+            "把跨类别信号写成待验证假设",
+            "用轻量邀请代替强迫式促销"
+          ],
+          "prohibited_claims": [
+            "全网第一",
+            "行业领先",
+            "顶级",
+            "彻底降噪",
+            "零延迟",
+            "百分百有效"
+          ],
+          "draft_line": "Campus Coffee：上课前，先喝到对味的一杯。",
+          "source_file": "C:\\codex_homework\\skills\\brand_voice\\SKILL.md"
+        },
+        "target_consumer": {
+          "primary": "18—28岁的学生与校园教职工，常在上课、通勤或自习前购买咖啡",
+          "decision": "希望在可接受价格内快速获得稳定口味的咖啡",
+          "observed_signals": [
+            {
+              "topic": "delivery",
+              "count": 38,
+              "share_pct": 19.0
+            },
+            {
+              "topic": "taste",
+              "count": 37,
+              "share_pct": 18.5
+            },
+            {
+              "topic": "packaging",
+              "count": 22,
+              "share_pct": 11.0
+            }
+          ],
+          "unvalidated_needs": [
+            "具体新品口味偏好",
+            "校园门店可接受价格",
+            "高峰期真实等待时长"
+          ],
+          "research_next": "先访谈5名目标用户，再用小流量A/B测试验证主题和优惠机制。"
+        }
+      },
+      "api_response": {
+        "ok": true,
+        "endpoint": "workflow/communication_theme",
+        "request_id": "WF-20261105T004540-08cca5-communication_theme"
+      },
+      "output": {
+        "theme": "上课前，先喝到对味的一杯",
+        "promise": "用真实口味、价格和出杯时间信息，帮助校园用户做选择。",
+        "content_pillars": [
+          "口味试饮记录",
+          "高峰期出杯时间实测",
+          "学生可接受价格的小样本投票"
+        ],
+        "claim_mode": "test_first",
+        "draft_headlines": [
+          "Campus Coffee新品试饮：上课前这一杯，口味和等待时间都写清楚",
+          "先看实测，再决定今天喝哪杯",
+          "校园高峰期，几分钟能拿到新品？"
+        ],
+        "evidence_boundary": "当前数据不能证明新品口味、价格或等待时间；以上内容是待执行的测试计划。"
+      },
+      "evidence_refs": [
+        "E4:pain_point_ranking.csv",
+        "E6:demand_content_matrix.csv",
+        "human_review:claim_gate"
+      ],
+      "elapsed_ms": 0.2
+    },
+    "channel_plan": {
+      "status": "completed",
+      "input": {
+        "brand_info": {
+          "brand_name": "Campus Coffee",
+          "category": "coffee",
+          "launch_type": "new_product",
+          "request": "给Campus Coffee设计一次新品推广",
+          "objective": "在校园场景验证新品传播主题、渠道和转化路径",
+          "source_scope": "user_request"
+        },
+        "consumer_insight": {
+          "sample_size": 200,
+          "top_pain_points": [
+            {
+              "topic": "delivery",
+              "count": 38,
+              "share_pct": 19.0
+            },
+            {
+              "topic": "taste",
+              "count": 37,
+              "share_pct": 18.5
+            },
+            {
+              "topic": "packaging",
+              "count": 22,
+              "share_pct": 11.0
+            }
+          ],
+          "sentiment": [
+            {
+              "label": "positive",
+              "count": 92,
+              "share_pct": 46.0
+            },
+            {
+              "label": "mixed",
+              "count": 18,
+              "share_pct": 9.0
+            },
+            {
+              "label": "neutral",
+              "count": 0,
+              "share_pct": 0.0
+            },
+            {
+              "label": "negative",
+              "count": 90,
+              "share_pct": 45.0
+            }
+          ],
+          "evidence_boundary": "实验4为咖啡评论模拟样本；比例描述样本，不代表全体校园消费者。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\pain_point_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\sentiment_distribution.csv"
+          ]
+        },
+        "competitor_analysis": {
+          "focal_brand": "NovaPulse(新脉)",
+          "top_rival": "BassForge(低频工坊)",
+          "threat_index": 93.46,
+          "rival_evidence_records": 98,
+          "rival_snapshot": {
+            "brand": "BassForge(低频工坊)",
+            "product_rows": "98",
+            "product_count": "4",
+            "avg_price": "640.81",
+            "median_price": "626.5",
+            "min_price": "340.0",
+            "max_price": "998.0",
+            "avg_rating": "4.13",
+            "review_count": "917385.0",
+            "likes": "4104219.0",
+            "favorites": "1989826.0",
+            "avg_usage_experience": "4.19",
+            "avg_noise_cancel": "7.24",
+            "avg_battery_hours": "27.79",
+            "engagement": "7011430.0",
+            "brand_popularity": "100.0",
+            "product_share_pct": "25.45",
+            "sentiment": "mixed"
+          },
+          "category_alignment": "not_aligned",
+          "use_rule": "实验5是蓝牙降噪耳机样本，只用于演示竞争分析结构，不能作为咖啡竞品事实。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\threat_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\brand_comparison.csv"
+          ]
+        },
+        "content_gap": {
+          "opportunities": [
+            {
+              "theme_id": "price_value",
+              "theme": "价格与性价比",
+              "status": "hypothesis_only",
+              "score": 11.84,
+              "category_fit": "cross_category_proxy",
+              "consumer_importance_pct": 9.0
+            },
+            {
+              "theme_id": "delivery_speed",
+              "theme": "配送速度",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 19.0
+            },
+            {
+              "theme_id": "taste_quality",
+              "theme": "口味与品质",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 18.5
+            },
+            {
+              "theme_id": "packaging",
+              "theme": "包装",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 11.0
+            }
+          ],
+          "selected_hypothesis": {
+            "theme_id": "price_value",
+            "theme": "价格与性价比",
+            "status": "hypothesis_only",
+            "score": 11.84,
+            "category_fit": "cross_category_proxy",
+            "consumer_importance_pct": 9.0
+          },
+          "evidence_boundary": "实验6已明确标注咖啡与耳机类别不一致；跨类别价格信号只能形成假设，发布前需要校园咖啡自有数据验证。",
+          "human_gate": "必须先审核类别匹配和证据边界，再进入投放文案。",
+          "source_file": "C:\\codex_homework\\experiments\\experiment-6-content-gap-brand-voice\\outputs\\demand_content_matrix.csv"
+        },
+        "brand_voice": {
+          "voice": [
+            "清楚",
+            "克制",
+            "具体",
+            "以校园场景为中心"
+          ],
+          "rules": [
+            "先说用户决定，再给测试条件",
+            "保留样本量、分母和证据来源",
+            "把跨类别信号写成待验证假设",
+            "用轻量邀请代替强迫式促销"
+          ],
+          "prohibited_claims": [
+            "全网第一",
+            "行业领先",
+            "顶级",
+            "彻底降噪",
+            "零延迟",
+            "百分百有效"
+          ],
+          "draft_line": "Campus Coffee：上课前，先喝到对味的一杯。",
+          "source_file": "C:\\codex_homework\\skills\\brand_voice\\SKILL.md"
+        },
+        "target_consumer": {
+          "primary": "18—28岁的学生与校园教职工，常在上课、通勤或自习前购买咖啡",
+          "decision": "希望在可接受价格内快速获得稳定口味的咖啡",
+          "observed_signals": [
+            {
+              "topic": "delivery",
+              "count": 38,
+              "share_pct": 19.0
+            },
+            {
+              "topic": "taste",
+              "count": 37,
+              "share_pct": 18.5
+            },
+            {
+              "topic": "packaging",
+              "count": 22,
+              "share_pct": 11.0
+            }
+          ],
+          "unvalidated_needs": [
+            "具体新品口味偏好",
+            "校园门店可接受价格",
+            "高峰期真实等待时长"
+          ],
+          "research_next": "先访谈5名目标用户，再用小流量A/B测试验证主题和优惠机制。"
+        },
+        "communication_theme": {
+          "theme": "上课前，先喝到对味的一杯",
+          "promise": "用真实口味、价格和出杯时间信息，帮助校园用户做选择。",
+          "content_pillars": [
+            "口味试饮记录",
+            "高峰期出杯时间实测",
+            "学生可接受价格的小样本投票"
+          ],
+          "claim_mode": "test_first",
+          "draft_headlines": [
+            "Campus Coffee新品试饮：上课前这一杯，口味和等待时间都写清楚",
+            "先看实测，再决定今天喝哪杯",
+            "校园高峰期，几分钟能拿到新品？"
+          ],
+          "evidence_boundary": "当前数据不能证明新品口味、价格或等待时间；以上内容是待执行的测试计划。"
+        }
+      },
+      "api_response": {
+        "ok": true,
+        "endpoint": "workflow/channel_plan",
+        "request_id": "WF-20261105T004540-08cca5-channel_plan"
+      },
+      "output": {
+        "channels": [
+          {
+            "channel": "校园社群",
+            "role": "收集试饮报名与价格反馈",
+            "format": "问卷+群内投票"
+          },
+          {
+            "channel": "小红书/短视频",
+            "role": "展示口味与高峰期出杯实测",
+            "format": "30秒竖屏实测"
+          },
+          {
+            "channel": "门店二维码",
+            "role": "承接新品试饮和优惠核销",
+            "format": "桌卡/杯套二维码"
+          }
+        ],
+        "sequence": [
+          "招募试饮",
+          "发布实测",
+          "小范围优惠",
+          "复盘并决定是否扩大投放"
+        ],
+        "budget_rule": "先小流量验证，未通过人工审核和数据门槛不扩大预算。",
+        "kpis": [
+          {
+            "name": "试饮报名率",
+            "definition": "看到招募内容的用户中完成报名的比例",
+            "target": "先建立基线"
+          },
+          {
+            "name": "优惠核销率",
+            "definition": "领取新品优惠的用户中完成核销的比例",
+            "target": "A/B测试后设定"
+          },
+          {
+            "name": "复购意向",
+            "definition": "试饮后愿意在7天内再次购买的比例",
+            "target": "访谈与问卷验证"
+          }
+        ],
+        "manual_review": "渠道投放前由品牌方确认预算、校园合规和优惠规则。"
+      },
+      "evidence_refs": [
+        "human_review:channel_and_budget_gate"
+      ],
+      "elapsed_ms": 0.23
+    },
+    "campaign": {
+      "status": "completed",
+      "input": {
+        "brand_info": {
+          "brand_name": "Campus Coffee",
+          "category": "coffee",
+          "launch_type": "new_product",
+          "request": "给Campus Coffee设计一次新品推广",
+          "objective": "在校园场景验证新品传播主题、渠道和转化路径",
+          "source_scope": "user_request"
+        },
+        "consumer_insight": {
+          "sample_size": 200,
+          "top_pain_points": [
+            {
+              "topic": "delivery",
+              "count": 38,
+              "share_pct": 19.0
+            },
+            {
+              "topic": "taste",
+              "count": 37,
+              "share_pct": 18.5
+            },
+            {
+              "topic": "packaging",
+              "count": 22,
+              "share_pct": 11.0
+            }
+          ],
+          "sentiment": [
+            {
+              "label": "positive",
+              "count": 92,
+              "share_pct": 46.0
+            },
+            {
+              "label": "mixed",
+              "count": 18,
+              "share_pct": 9.0
+            },
+            {
+              "label": "neutral",
+              "count": 0,
+              "share_pct": 0.0
+            },
+            {
+              "label": "negative",
+              "count": 90,
+              "share_pct": 45.0
+            }
+          ],
+          "evidence_boundary": "实验4为咖啡评论模拟样本；比例描述样本，不代表全体校园消费者。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\pain_point_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-4-consumer-insight\\outputs\\sentiment_distribution.csv"
+          ]
+        },
+        "competitor_analysis": {
+          "focal_brand": "NovaPulse(新脉)",
+          "top_rival": "BassForge(低频工坊)",
+          "threat_index": 93.46,
+          "rival_evidence_records": 98,
+          "rival_snapshot": {
+            "brand": "BassForge(低频工坊)",
+            "product_rows": "98",
+            "product_count": "4",
+            "avg_price": "640.81",
+            "median_price": "626.5",
+            "min_price": "340.0",
+            "max_price": "998.0",
+            "avg_rating": "4.13",
+            "review_count": "917385.0",
+            "likes": "4104219.0",
+            "favorites": "1989826.0",
+            "avg_usage_experience": "4.19",
+            "avg_noise_cancel": "7.24",
+            "avg_battery_hours": "27.79",
+            "engagement": "7011430.0",
+            "brand_popularity": "100.0",
+            "product_share_pct": "25.45",
+            "sentiment": "mixed"
+          },
+          "category_alignment": "not_aligned",
+          "use_rule": "实验5是蓝牙降噪耳机样本，只用于演示竞争分析结构，不能作为咖啡竞品事实。",
+          "source_files": [
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\threat_ranking.csv",
+            "C:\\codex_homework\\experiments\\experiment-5-competitive-intelligence\\outputs\\brand_comparison.csv"
+          ]
+        },
+        "content_gap": {
+          "opportunities": [
+            {
+              "theme_id": "price_value",
+              "theme": "价格与性价比",
+              "status": "hypothesis_only",
+              "score": 11.84,
+              "category_fit": "cross_category_proxy",
+              "consumer_importance_pct": 9.0
+            },
+            {
+              "theme_id": "delivery_speed",
+              "theme": "配送速度",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 19.0
+            },
+            {
+              "theme_id": "taste_quality",
+              "theme": "口味与品质",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 18.5
+            },
+            {
+              "theme_id": "packaging",
+              "theme": "包装",
+              "status": "unmapped_competitor_coverage",
+              "score": null,
+              "category_fit": "not_comparable",
+              "consumer_importance_pct": 11.0
+            }
+          ],
+          "selected_hypothesis": {
+            "theme_id": "price_value",
+            "theme": "价格与性价比",
+            "status": "hypothesis_only",
+            "score": 11.84,
+            "category_fit": "cross_category_proxy",
+            "consumer_importance_pct": 9.0
+          },
+          "evidence_boundary": "实验6已明确标注咖啡与耳机类别不一致；跨类别价格信号只能形成假设，发布前需要校园咖啡自有数据验证。",
+          "human_gate": "必须先审核类别匹配和证据边界，再进入投放文案。",
+          "source_file": "C:\\codex_homework\\experiments\\experiment-6-content-gap-brand-voice\\outputs\\demand_content_matrix.csv"
+        },
+        "brand_voice": {
+          "voice": [
+            "清楚",
+            "克制",
+            "具体",
+            "以校园场景为中心"
+          ],
+          "rules": [
+            "先说用户决定，再给测试条件",
+            "保留样本量、分母和证据来源",
+            "把跨类别信号写成待验证假设",
+            "用轻量邀请代替强迫式促销"
+          ],
+          "prohibited_claims": [
+            "全网第一",
+            "行业领先",
+            "顶级",
+            "彻底降噪",
+            "零延迟",
+            "百分百有效"
+          ],
+          "draft_line": "Campus Coffee：上课前，先喝到对味的一杯。",
+          "source_file": "C:\\codex_homework\\skills\\brand_voice\\SKILL.md"
+        },
+        "target_consumer": {
+          "primary": "18—28岁的学生与校园教职工，常在上课、通勤或自习前购买咖啡",
+          "decision": "希望在可接受价格内快速获得稳定口味的咖啡",
+          "observed_signals": [
+            {
+              "topic": "delivery",
+              "count": 38,
+              "share_pct": 19.0
+            },
+            {
+              "topic": "taste",
+              "count": 37,
+              "share_pct": 18.5
+            },
+            {
+              "topic": "packaging",
+              "count": 22,
+              "share_pct": 11.0
+            }
+          ],
+          "unvalidated_needs": [
+            "具体新品口味偏好",
+            "校园门店可接受价格",
+            "高峰期真实等待时长"
+          ],
+          "research_next": "先访谈5名目标用户，再用小流量A/B测试验证主题和优惠机制。"
+        },
+        "communication_theme": {
+          "theme": "上课前，先喝到对味的一杯",
+          "promise": "用真实口味、价格和出杯时间信息，帮助校园用户做选择。",
+          "content_pillars": [
+            "口味试饮记录",
+            "高峰期出杯时间实测",
+            "学生可接受价格的小样本投票"
+          ],
+          "claim_mode": "test_first",
+          "draft_headlines": [
+            "Campus Coffee新品试饮：上课前这一杯，口味和等待时间都写清楚",
+            "先看实测，再决定今天喝哪杯",
+            "校园高峰期，几分钟能拿到新品？"
+          ],
+          "evidence_boundary": "当前数据不能证明新品口味、价格或等待时间；以上内容是待执行的测试计划。"
+        },
+        "channel_plan": {
+          "channels": [
+            {
+              "channel": "校园社群",
+              "role": "收集试饮报名与价格反馈",
+              "format": "问卷+群内投票"
+            },
+            {
+              "channel": "小红书/短视频",
+              "role": "展示口味与高峰期出杯实测",
+              "format": "30秒竖屏实测"
+            },
+            {
+              "channel": "门店二维码",
+              "role": "承接新品试饮和优惠核销",
+              "format": "桌卡/杯套二维码"
+            }
+          ],
+          "sequence": [
+            "招募试饮",
+            "发布实测",
+            "小范围优惠",
+            "复盘并决定是否扩大投放"
+          ],
+          "budget_rule": "先小流量验证，未通过人工审核和数据门槛不扩大预算。",
+          "kpis": [
+            {
+              "name": "试饮报名率",
+              "definition": "看到招募内容的用户中完成报名的比例",
+              "target": "先建立基线"
+            },
+            {
+              "name": "优惠核销率",
+              "definition": "领取新品优惠的用户中完成核销的比例",
+              "target": "A/B测试后设定"
+            },
+            {
+              "name": "复购意向",
+              "definition": "试饮后愿意在7天内再次购买的比例",
+              "target": "访谈与问卷验证"
+            }
+          ],
+          "manual_review": "渠道投放前由品牌方确认预算、校园合规和优惠规则。"
+        }
+      },
+      "api_response": {
+        "ok": true,
+        "endpoint": "workflow/campaign",
+        "request_id": "WF-20261105T004540-08cca5-campaign"
+      },
+      "output": {
+        "campaign_id": "CC-NEWPRODUCT-V07",
+        "status": "draft_pending_human_review",
+        "brand": "Campus Coffee",
+        "objective": "在校园场景验证新品传播主题、渠道和转化路径",
+        "audience": "18—28岁的学生与校园教职工，常在上课、通勤或自习前购买咖啡",
+        "theme": "上课前，先喝到对味的一杯",
+        "content_pillars": [
+          "口味试饮记录",
+          "高峰期出杯时间实测",
+          "学生可接受价格的小样本投票"
+        ],
+        "headlines": [
+          "Campus Coffee新品试饮：上课前这一杯，口味和等待时间都写清楚",
+          "先看实测，再决定今天喝哪杯",
+          "校园高峰期，几分钟能拿到新品？"
+        ],
+        "channels": [
+          {
+            "channel": "校园社群",
+            "role": "收集试饮报名与价格反馈",
+            "format": "问卷+群内投票"
+          },
+          {
+            "channel": "小红书/短视频",
+            "role": "展示口味与高峰期出杯实测",
+            "format": "30秒竖屏实测"
+          },
+          {
+            "channel": "门店二维码",
+            "role": "承接新品试饮和优惠核销",
+            "format": "桌卡/杯套二维码"
+          }
+        ],
+        "kpis": [
+          {
+            "name": "试饮报名率",
+            "definition": "看到招募内容的用户中完成报名的比例",
+            "target": "先建立基线"
+          },
+          {
+            "name": "优惠核销率",
+            "definition": "领取新品优惠的用户中完成核销的比例",
+            "target": "A/B测试后设定"
+          },
+          {
+            "name": "复购意向",
+            "definition": "试饮后愿意在7天内再次购买的比例",
+            "target": "访谈与问卷验证"
+          }
+        ],
+        "evidence_ledger": [
+          {
+            "claim": "配送/等待是样本中的首要痛点之一",
+            "source": "E4:pain_point_ranking.csv",
+            "boundary": "200条咖啡模拟评论"
+          },
+          {
+            "claim": "价格信号可用于形成传播假设",
+            "source": "E6:demand_content_matrix.csv",
+            "boundary": "跨类别代理信号，不能证明耳机或校园新品需求"
+          },
+          {
+            "claim": "竞品威胁分析已有结构化结果",
+            "source": "E5:threat_ranking.csv",
+            "boundary": "蓝牙耳机样本，不作为咖啡竞品结论"
+          }
+        ],
+        "prohibited_claims": [
+          "全网第一",
+          "行业领先",
+          "顶级",
+          "彻底降噪",
+          "零延迟",
+          "百分百有效"
+        ],
+        "human_review": {
+          "required": true,
+          "checkpoints": [
+            {
+              "id": "claim_gate",
+              "status": "pending",
+              "owner": "品牌负责人",
+              "check": "逐条核对文案与证据边界"
+            },
+            {
+              "id": "pilot_gate",
+              "status": "pending",
+              "owner": "增长负责人",
+              "check": "确认5人访谈、A/B测试和预算上限"
+            },
+            {
+              "id": "publish_gate",
+              "status": "pending",
+              "owner": "门店/合规",
+              "check": "确认校园场景、优惠和素材可发布"
+            }
+          ]
+        }
+      },
+      "evidence_refs": [
+        "E4:pain_point_ranking.csv",
+        "E5:threat_ranking.csv",
+        "E6:demand_content_matrix.csv",
+        "human_review:publish_gate"
+      ],
+      "elapsed_ms": 0.16
+    }
+  },
+  "evidence": [
+    {
+      "step": "brand_info",
+      "ref": "user_request"
+    },
+    {
+      "step": "consumer_insight",
+      "ref": "E4:pain_point_ranking.csv"
+    },
+    {
+      "step": "consumer_insight",
+      "ref": "E4:sentiment_distribution.csv"
+    },
+    {
+      "step": "competitor_analysis",
+      "ref": "E5:threat_ranking.csv"
+    },
+    {
+      "step": "competitor_analysis",
+      "ref": "E5:brand_comparison.csv"
+    },
+    {
+      "step": "content_gap",
+      "ref": "E6:demand_content_matrix.csv"
+    },
+    {
+      "step": "brand_voice",
+      "ref": "brand_voice/SKILL.md"
+    },
+    {
+      "step": "target_consumer",
+      "ref": "E4:pain_point_ranking.csv"
+    },
+    {
+      "step": "target_consumer",
+      "ref": "human_review:target_definition"
+    },
+    {
+      "step": "communication_theme",
+      "ref": "E4:pain_point_ranking.csv"
+    },
+    {
+      "step": "communication_theme",
+      "ref": "E6:demand_content_matrix.csv"
+    },
+    {
+      "step": "communication_theme",
+      "ref": "human_review:claim_gate"
+    },
+    {
+      "step": "channel_plan",
+      "ref": "human_review:channel_and_budget_gate"
+    },
+    {
+      "step": "campaign",
+      "ref": "E4:pain_point_ranking.csv"
+    },
+    {
+      "step": "campaign",
+      "ref": "E5:threat_ranking.csv"
+    },
+    {
+      "step": "campaign",
+      "ref": "E6:demand_content_matrix.csv"
+    },
+    {
+      "step": "campaign",
+      "ref": "human_review:publish_gate"
+    }
+  ],
+  "events": [
+    {
+      "event": "step",
+      "step": "brand_info",
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.035+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/brand_info",
+      "attempt": 1,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.035+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/brand_info",
+      "attempt": 1,
+      "status": "succeeded",
+      "response": {
+        "ok": true,
+        "endpoint": "workflow/brand_info",
+        "request_id": "WF-20261105T004540-08cca5-brand_info"
+      },
+      "elapsed_ms": 1.93,
+      "timestamp": "2026-11-05T00:45:40.037+00:00"
+    },
+    {
+      "event": "step",
+      "step": "brand_info",
+      "status": "completed",
+      "timestamp": "2026-11-05T00:45:40.037+00:00"
+    },
+    {
+      "event": "step",
+      "step": "consumer_insight",
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.037+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/consumer_insight",
+      "attempt": 1,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.037+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/consumer_insight",
+      "attempt": 1,
+      "status": "succeeded",
+      "response": {
+        "ok": true,
+        "endpoint": "workflow/consumer_insight",
+        "request_id": "WF-20261105T004540-08cca5-consumer_insight"
+      },
+      "elapsed_ms": 0.46,
+      "timestamp": "2026-11-05T00:45:40.038+00:00"
+    },
+    {
+      "event": "step",
+      "step": "consumer_insight",
+      "status": "completed",
+      "timestamp": "2026-11-05T00:45:40.070+00:00"
+    },
+    {
+      "event": "step",
+      "step": "competitor_analysis",
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.070+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/competitor_analysis",
+      "attempt": 1,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.070+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/competitor_analysis",
+      "attempt": 1,
+      "status": "succeeded",
+      "response": {
+        "ok": true,
+        "endpoint": "workflow/competitor_analysis",
+        "request_id": "WF-20261105T004540-08cca5-competitor_analysis"
+      },
+      "elapsed_ms": 0.34,
+      "timestamp": "2026-11-05T00:45:40.071+00:00"
+    },
+    {
+      "event": "step",
+      "step": "competitor_analysis",
+      "status": "completed",
+      "timestamp": "2026-11-05T00:45:40.116+00:00"
+    },
+    {
+      "event": "step",
+      "step": "content_gap",
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.116+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/content_gap",
+      "attempt": 1,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.116+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/content_gap",
+      "attempt": 1,
+      "status": "succeeded",
+      "response": {
+        "ok": true,
+        "endpoint": "workflow/content_gap",
+        "request_id": "WF-20261105T004540-08cca5-content_gap"
+      },
+      "elapsed_ms": 0.2,
+      "timestamp": "2026-11-05T00:45:40.116+00:00"
+    },
+    {
+      "event": "step",
+      "step": "content_gap",
+      "status": "completed",
+      "timestamp": "2026-11-05T00:45:40.178+00:00"
+    },
+    {
+      "event": "step",
+      "step": "brand_voice",
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.178+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/brand_voice",
+      "attempt": 1,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.178+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/brand_voice",
+      "attempt": 1,
+      "status": "succeeded",
+      "response": {
+        "ok": true,
+        "endpoint": "workflow/brand_voice",
+        "request_id": "WF-20261105T004540-08cca5-brand_voice"
+      },
+      "elapsed_ms": 0.2,
+      "timestamp": "2026-11-05T00:45:40.178+00:00"
+    },
+    {
+      "event": "step",
+      "step": "brand_voice",
+      "status": "completed",
+      "timestamp": "2026-11-05T00:45:40.188+00:00"
+    },
+    {
+      "event": "step",
+      "step": "target_consumer",
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.188+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/target_consumer",
+      "attempt": 1,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.188+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/target_consumer",
+      "attempt": 1,
+      "status": "succeeded",
+      "response": {
+        "ok": true,
+        "endpoint": "workflow/target_consumer",
+        "request_id": "WF-20261105T004540-08cca5-target_consumer"
+      },
+      "elapsed_ms": 0.22,
+      "timestamp": "2026-11-05T00:45:40.188+00:00"
+    },
+    {
+      "event": "step",
+      "step": "target_consumer",
+      "status": "completed",
+      "timestamp": "2026-11-05T00:45:40.188+00:00"
+    },
+    {
+      "event": "step",
+      "step": "communication_theme",
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.188+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/communication_theme",
+      "attempt": 1,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.188+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/communication_theme",
+      "attempt": 1,
+      "status": "succeeded",
+      "response": {
+        "ok": true,
+        "endpoint": "workflow/communication_theme",
+        "request_id": "WF-20261105T004540-08cca5-communication_theme"
+      },
+      "elapsed_ms": 0.18,
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "step",
+      "step": "communication_theme",
+      "status": "completed",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "step",
+      "step": "channel_plan",
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/channel_plan",
+      "attempt": 1,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/channel_plan",
+      "attempt": 1,
+      "status": "succeeded",
+      "response": {
+        "ok": true,
+        "endpoint": "workflow/channel_plan",
+        "request_id": "WF-20261105T004540-08cca5-channel_plan"
+      },
+      "elapsed_ms": 0.21,
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "step",
+      "step": "channel_plan",
+      "status": "completed",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "step",
+      "step": "campaign",
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/campaign",
+      "attempt": 1,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "workflow/campaign",
+      "attempt": 1,
+      "status": "succeeded",
+      "response": {
+        "ok": true,
+        "endpoint": "workflow/campaign",
+        "request_id": "WF-20261105T004540-08cca5-campaign"
+      },
+      "elapsed_ms": 0.14,
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "step",
+      "step": "campaign",
+      "status": "completed",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "debug/flaky",
+      "attempt": 1,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "debug/flaky",
+      "attempt": 1,
+      "status": "failed",
+      "error": "RuntimeError: simulated upstream 503",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "debug/flaky",
+      "attempt": 2,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "debug/flaky",
+      "attempt": 2,
+      "status": "failed",
+      "error": "RuntimeError: simulated upstream 503",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "debug/flaky",
+      "attempt": 3,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.189+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "debug/flaky",
+      "attempt": 3,
+      "status": "succeeded",
+      "response": {
+        "ok": true,
+        "recovered": true
+      },
+      "elapsed_ms": 0.12,
+      "timestamp": "2026-11-05T00:45:40.190+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "debug/slow",
+      "attempt": 1,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.190+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "debug/slow",
+      "attempt": 1,
+      "status": "timeout",
+      "error": "timeout after 0.020s",
+      "timestamp": "2026-11-05T00:45:40.216+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "debug/slow",
+      "attempt": 2,
+      "status": "started",
+      "timestamp": "2026-11-05T00:45:40.216+00:00"
+    },
+    {
+      "event": "api_call",
+      "endpoint": "debug/slow",
+      "attempt": 2,
+      "status": "timeout",
+      "error": "timeout after 0.020s",
+      "timestamp": "2026-11-05T00:45:40.247+00:00"
+    }
+  ],
+  "manual_review": {
+    "required": true,
+    "checkpoints": [
+      {
+        "id": "claim_gate",
+        "status": "pending",
+        "owner": "品牌负责人",
+        "check": "逐条核对文案与证据边界"
+      },
+      {
+        "id": "pilot_gate",
+        "status": "pending",
+        "owner": "增长负责人",
+        "check": "确认5人访谈、A/B测试和预算上限"
+      },
+      {
+        "id": "publish_gate",
+        "status": "pending",
+        "owner": "门店/合规",
+        "check": "确认校园场景、优惠和素材可发布"
+      }
+    ]
+  },
+  "campaign": {
+    "campaign_id": "CC-NEWPRODUCT-V07",
+    "status": "draft_pending_human_review",
+    "brand": "Campus Coffee",
+    "objective": "在校园场景验证新品传播主题、渠道和转化路径",
+    "audience": "18—28岁的学生与校园教职工，常在上课、通勤或自习前购买咖啡",
+    "theme": "上课前，先喝到对味的一杯",
+    "content_pillars": [
+      "口味试饮记录",
+      "高峰期出杯时间实测",
+      "学生可接受价格的小样本投票"
+    ],
+    "headlines": [
+      "Campus Coffee新品试饮：上课前这一杯，口味和等待时间都写清楚",
+      "先看实测，再决定今天喝哪杯",
+      "校园高峰期，几分钟能拿到新品？"
+    ],
+    "channels": [
+      {
+        "channel": "校园社群",
+        "role": "收集试饮报名与价格反馈",
+        "format": "问卷+群内投票"
+      },
+      {
+        "channel": "小红书/短视频",
+        "role": "展示口味与高峰期出杯实测",
+        "format": "30秒竖屏实测"
+      },
+      {
+        "channel": "门店二维码",
+        "role": "承接新品试饮和优惠核销",
+        "format": "桌卡/杯套二维码"
+      }
+    ],
+    "kpis": [
+      {
+        "name": "试饮报名率",
+        "definition": "看到招募内容的用户中完成报名的比例",
+        "target": "先建立基线"
+      },
+      {
+        "name": "优惠核销率",
+        "definition": "领取新品优惠的用户中完成核销的比例",
+        "target": "A/B测试后设定"
+      },
+      {
+        "name": "复购意向",
+        "definition": "试饮后愿意在7天内再次购买的比例",
+        "target": "访谈与问卷验证"
+      }
+    ],
+    "evidence_ledger": [
+      {
+        "claim": "配送/等待是样本中的首要痛点之一",
+        "source": "E4:pain_point_ranking.csv",
+        "boundary": "200条咖啡模拟评论"
+      },
+      {
+        "claim": "价格信号可用于形成传播假设",
+        "source": "E6:demand_content_matrix.csv",
+        "boundary": "跨类别代理信号，不能证明耳机或校园新品需求"
+      },
+      {
+        "claim": "竞品威胁分析已有结构化结果",
+        "source": "E5:threat_ranking.csv",
+        "boundary": "蓝牙耳机样本，不作为咖啡竞品结论"
+      }
+    ],
+    "prohibited_claims": [
+      "全网第一",
+      "行业领先",
+      "顶级",
+      "彻底降噪",
+      "零延迟",
+      "百分百有效"
+    ],
+    "human_review": {
+      "required": true,
+      "checkpoints": [
+        {
+          "id": "claim_gate",
+          "status": "pending",
+          "owner": "品牌负责人",
+          "check": "逐条核对文案与证据边界"
+        },
+        {
+          "id": "pilot_gate",
+          "status": "pending",
+          "owner": "增长负责人",
+          "check": "确认5人访谈、A/B测试和预算上限"
+        },
+        {
+          "id": "publish_gate",
+          "status": "pending",
+          "owner": "门店/合规",
+          "check": "确认校园场景、优惠和素材可发布"
+        }
+      ]
+    }
+  },
+  "debug_drills": [
+    {
+      "case": "API失败与重试",
+      "status": "recovered",
+      "detail": "第3次调用成功: True"
+    },
+    {
+      "case": "JSON格式错误",
+      "status": "handled",
+      "detail": "第1行第11列: Expecting value"
+    },
+    {
+      "case": "缺字段",
+      "status": "handled",
+      "detail": "$: missing required field 'run_id'; $: missing required field 'request'; $: missing required field 'status'; $: missing required field 'steps'; $: missing required field 'campaign'; $: missing required field 'manual_review'"
+    },
+    {
+      "case": "超时",
+      "status": "handled",
+      "detail": "debug/slow failed after 2 attempt(s): timeout after 0.020s"
+    }
+  ],
+  "finished_at": "2026-11-05T00:45:40.247+00:00"
+}

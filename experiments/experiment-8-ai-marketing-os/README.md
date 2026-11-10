@@ -30,6 +30,8 @@ python -m unittest discover -s tests -v
 - `db/init_db.sql`：数据库初始化脚本；实际运行也会自动初始化。
 - `docs/workflow.mmd`：Workflow 图；`docs/experiment_plan.md`：测试方案、指标和限制。
 - `docs/defense_answers.md`：Demo 固定八问的答辩参考答案。
+- `docs/luckin_cotti_ab_test_plan.md`：瑞幸与库迪广告的匹配模板 A/B 测试方案。
+- `docs/skill_usage_log.md`：本次实际使用 `ab-testing` Skill 的记录。
 - `skills/`：本实验实际采用的 Brand Voice、A/B Testing、Analytics Skill 规则与来源说明。
 - `outputs/`：最近一次运行的 JSON、CSV、Markdown 分析报告。
 

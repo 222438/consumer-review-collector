@@ -1,0 +1,13 @@
+{
+  "brand_name": "Campus Coffee",
+  "category": "校园咖啡",
+  "version": "v1.0",
+  "target_audience": ["18—28岁学生", "校园教职工", "上课/通勤/自习前需要快速购买的人群"],
+  "brand_voice": {
+    "tone": ["清楚", "克制", "具体", "以校园场景为中心"],
+    "rules": ["先说用户决定，再给测试条件", "保留样本量、分母和证据来源", "把假设写成待验证假设", "用轻量邀请代替强迫式促销"],
+    "prohibited_claims": ["全网第一", "行业领先", "顶级", "百分百有效", "彻底解决"]
+  },
+  "campaign_history": [{"version": "v0.7", "date": "2026-11-05", "theme": "上课前，先喝到对味的一杯", "status": "draft_pending_human_review", "source": "experiment-7-ai-marketing-workflow"}],
+  "focal_competitor_brand": "Campus Coffee"
+}

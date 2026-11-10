@@ -1,0 +1,17 @@
+flowchart LR
+    U[品牌资料与用户输入] --> B[品牌档案/Brand Voice]
+    B --> I[消费者数据上传与多标签洞察]
+    I --> C[竞品指标/排名/威胁维度]
+    C --> G[需求-竞品 Content Gap]
+    G --> P[Campaign Planner]
+    P --> T[匿名 A/B 或问卷测试]
+    T --> A[指标、开放反馈与下一轮优化]
+    A --> G
+    I -. evidence_refs .-> E[(证据台账)]
+    C -. evidence_refs .-> E
+    G -. evidence_refs .-> E
+    P -. 人工审核 .-> H{Claim / 合规 / 样本门}
+    H -->|通过| T
+    H -->|退回| P
+    P --> D[(SQLite 历史记录)]
+    T --> D

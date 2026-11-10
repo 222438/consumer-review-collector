@@ -1,0 +1,4 @@
+[
+  {"version": "v0.7", "date": "2026-11-05", "theme": "上课前，先喝到对味的一杯", "status": "draft_pending_human_review", "evidence": ["E4:pain_point_ranking.csv", "E6:demand_content_matrix.csv"]},
+  {"version": "v1.0", "date": "2026-11-10", "theme": "把等待和口味说清楚，再邀请用户一起测", "status": "test_ready", "evidence": ["consumer_reviews.csv", "competitors.csv", "ab_test_anonymous.csv"]}
+]

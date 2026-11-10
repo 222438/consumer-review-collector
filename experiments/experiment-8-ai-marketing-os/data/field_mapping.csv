@@ -1,0 +1,9 @@
+source_field,target_field,definition,version
+review_id,evidence_id,匿名评论证据标识,v1.0
+rating,rating,1-5分有效评分,v1.0
+review,review_text,原始评论文本,v1.0
+group,test_group,A/B测试分组,v1.0
+participant_id,anonymous_id,不可识别的参与者编号,v1.0
+clicked,click,是否点击,v1.0
+purchased,purchase,是否购买,v1.0
+open_feedback,open_feedback,开放反馈文本,v1.0

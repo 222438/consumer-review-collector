@@ -1,0 +1,15 @@
+{
+  "run_id": "OS-20261110T004358-5d3902",
+  "version": "v1.0",
+  "brand": "Campus Coffee",
+  "sample_size": 120,
+  "top_pain_point": "taste",
+  "top_opportunity": "taste",
+  "top_rival": "QuickCup",
+  "ab_ctr_uplift_pct": 9.99,
+  "ab_purchase_rate_uplift_pct": -100.0,
+  "next_optimization": "不要直接扩大投放；按开放反馈主题改写利益点，并在相同曝光条件下复测。",
+  "evidence_count": 184,
+  "started_at": "2026-11-10T00:43:58+00:00",
+  "completed_at": "2026-11-10T00:43:58+00:00"
+}

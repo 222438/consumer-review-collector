@@ -71,6 +71,21 @@ class MarketingOSTest(unittest.TestCase):
             finally:
                 conn.close()
 
+    def test_unfamiliar_data_pressure_fixture(self):
+        unfamiliar_reviews = [
+            {"review_id": "new-1", "brand": "NewRoaster", "product": "冷萃", "rating": 5, "review": "季节限定，清爽"},
+            {"review_id": "new-2", "brand": "NewRoaster", "product": "冷萃", "rating": 2, "review": "取货点不方便"},
+        ]
+        consumer = analyze_consumer_data(unfamiliar_reviews)
+        competitors = analyze_competitors([
+            {"brand": "NewRoaster", "product_overlap": 40, "price_overlap": 40, "consumer_overlap": 40, "brand_popularity": 40},
+            {"brand": "UnexpectedCafe", "product_overlap": 80, "price_overlap": 70, "consumer_overlap": 75, "brand_popularity": 60},
+        ], focal_brand="NewRoaster")
+        self.assertEqual(consumer["sample_size"], 2)
+        self.assertEqual(competitors["top_rival"], "UnexpectedCafe")
+        experiment = [{"participant_id": f"fresh-{i}", "group": "A" if i < 20 else "B", "clicked": int(i % 2 == 0), "purchased": int(i % 5 == 0), "open_feedback": "新反馈"} for i in range(40)]
+        self.assertEqual(sum(row["sample_size"] for row in analyze_experiment_effect(experiment)["groups"]), 40)
+
 
 if __name__ == "__main__":
     unittest.main()

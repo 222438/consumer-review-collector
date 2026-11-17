@@ -1,0 +1,3 @@
+# Preserve upstream bytes so PROVENANCE.json hashes survive Windows checkout.
+ab-testing/** -text
+LICENSE -text

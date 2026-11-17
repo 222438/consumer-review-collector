@@ -1,5 +1,7 @@
 # `ab-testing` Skill 使用记录
 
+> 状态澄清（2026-11-17）：下面最初的设计记录使用的是本地改写清单，并非已安装并调用完整原版。现已补入 `vendor/marketingskills/ab-testing/` 原文和依赖文档，并实际读取原版复核示例数据；结果见 `reports/ab_testing_skill_review_2026-11-17.md`。本次复核指出了模拟生成器和测量字段的限制，没有宣布真实广告赢家。
+
 | 项目 | 内容 |
 |---|---|
 | 上游 Skill | `coreyhaines31/marketingskills/skills/ab-testing/SKILL.md` |

@@ -8,11 +8,13 @@
 
 ## 运行
 
+第一次课堂演示请照着 [`docs/classroom_walkthrough.md`](docs/classroom_walkthrough.md) 操作；Windows 可双击 `start_demo.cmd`，再打开 <http://127.0.0.1:8503>。Skill 的使用在 AI 对话中演示，网页按钮只执行 Python 规则。
+
 ```powershell
 cd experiments/experiment-8-ai-marketing-os
 python data/generate_sample_data.py       # 可选：重新生成确定性的匿名样本
 python run.py                              # 无界面运行并写入 outputs/ 和 data/marketing_os.sqlite3
-streamlit run app.py                       # 上传、运行、结果、证据和下载页面
+python -m streamlit run app.py             # 上传、运行、结果、证据和下载页面
 python -m unittest discover -s tests -v
 ```
 
@@ -48,5 +50,7 @@ python -m unittest discover -s tests -v
 集成版本为 `v1.0`。实验7使用的字段与本实验的 `field_mapping.csv` 对齐；需要合并的接口、依赖和版本冲突记录在 `docs/integration_conflicts.md`。上游实验仍保留在仓库中，便于追溯原始证据。
 
 ## GitHub Skill 采用记录
+
+2026-11-17 补充了 **GitHub 原版** `vendor/marketingskills/ab-testing/`（含参考文件），以及 MIT `LICENSE` 和 `PROVENANCE.json`，原文已按固定提交逐字节验证。原来的 `skills/ab_testing/` 仍是自编简版。实际应用原版复核的记录见 [`reports/ab_testing_skill_review_2026-11-17.md`](reports/ab_testing_skill_review_2026-11-17.md)。瑞幸/库迪当前只有方案，无真实广告测试结果；现有程序不支持该方案中的七分购买意愿与显著性计算。
 
 本实验采用了 GitHub `coreyhaines31/marketingskills` 的 MIT 许可公开 Skill 思路：`ab-testing`（v2.0.7）用于假设、主/次/护栏指标、预先设定样本量和不提前停测；`analytics`（v2.2.5）用于事件命名、从行级数据计算、窗口一致性和不收集 PII。来源、固定提交和本地适配见 `skills/UPSTREAM.md`。本地 `skills/brand_voice` 继续用于禁用未经证实的绝对化表述。
